@@ -1,4 +1,4 @@
-##PREGUNTAS EXÁMEN:
+PREGUNTAS EXÁMEN: <br/>
 conf red <br/>
 ip/mask/gw <br/>
 ip pub/priv <br/>
