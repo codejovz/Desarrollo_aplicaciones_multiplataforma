@@ -1,3 +1,4 @@
+https://docs.google.com/document/d/1uCgmoepLmgppHb6drm3dt01M9XlaVzDoiOHXyYwVKdg/edit?usp=sharing <br/>
 PREGUNTAS EXÁMEN: <br/>
 conf red <br/>
 ip/mask/gw <br/>
