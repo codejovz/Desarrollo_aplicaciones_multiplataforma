@@ -31,4 +31,46 @@ el puerto 8080 lo puede leer todo el mundo, <br/>
 
 el 631 es el de las impresoras <br/>
 
-El objetivo del socket es establecer un tubo bidireccional con un servidor remoto.. si hubiera mas clientes, podria haber mas tubos. <br/>
+El objetivo del socket es establecer un tubo bidireccional con un servidor remoto.. si hubiera mas clientes, podria haber mas tubos. <br/><br/>
+
+cae en el examen: <br/>
+.Para que sirve el gateway/puerta de enlace(seguro que cae): <br/>
+A internet se va por gateway. Si no coincide la primera parte de la ip no coincide, se le manda directamente al gateway para que el busque con quien se tiene que comunicar, con la ayuda de la máscara. <br/>
+-Redes <br/>
+-Configuracion: <br/>
+-ip, mascara, gw, dns, dhcp, http,socket. <br/> <br/>
+
+
+Mascara de red: para hacer una comunicacion entre dos maquinas. hay que averiguar la direccion de ip. con la mascara se puede averiguar si va a estar en la red o no. <br/>
+Sirve para ver si el dispositivo al que se manda el paquete está en la misma red local. si no, se manda a la puerta de enlace. <br/> <br/>
+
+-Windows <br/>
+Sistema de ficheros <br/>
+Parte administrativa <br/>
+	*Crear usuarios <br/>
+	*Eventos <br/>
+	*Servicios <br/>
+	*Discos <br/>
+Servicios en red <br/>
+Windows Server <br/>
+
+----------------------------------------------------------------------------------------------------------------- <br/> <br/>
+
+Evntos en windows <br/>
+administrador de eventos <br/>
+
+1-Consulta la BBDD  de eventos y carga en una tabla un resumen de lo que ha pasado en los ultimos dias. <br/>
+Registra los errores por niveles <br/> <br/>
+
+
+PUNTERO NULO: <br/>
+java hace implicitamente la designacion de los punteros, <br/>
+c los hace explicitos. <br/>
+el puntero nulo es que apunte a un sitio y que se pierda algo de informacion/no apunte a nada. es importante. <br/>
+tienen directorios de memoria, y no puede haber punteros que apunten fuera. el hardware es capaz de comprobarlo. <br/>
+
+Los moviles android son una maquina virtual de java <br/>
+
+Diferencias entre software libre y software gratis. <br/>
+
+El libre te lo pueden cobrar pero te suele dar mas derechos que el sofwtare propietario. <br/>
