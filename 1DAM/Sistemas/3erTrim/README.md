@@ -74,3 +74,4 @@ Los moviles android son una maquina virtual de java <br/>
 Diferencias entre software libre y software gratis. <br/>
 
 El libre te lo pueden cobrar pero te suele dar mas derechos que el sofwtare propietario. <br/>
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjotaaloud%2FDesarrollo_aplicaciones_multiplataforma%2Ftree%2Fmain%2F1DAM%2FSistemas%2F3erTrim&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor+counter&edge_flat=false)](https://hits.seeyoufarm.com)
