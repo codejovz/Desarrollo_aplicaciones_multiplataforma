@@ -37,6 +37,7 @@
 
         #soluciones{
             position: fixed;
+            z-index: 1;
             left: 20px;
             top: -40px;
             width: 100%;
@@ -54,6 +55,14 @@
         input[type="radio"][value="incorrecto"]:checked{
             box-shadow: 0 0 0 4px red inset;
         }
+        
+        input[type="reset"]{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 2;
+        
+        }
 
 
 
@@ -70,7 +79,7 @@
         
 
         <form action="mailto:nadie@nada.es" method="post" enctype="text/plain">
-
+            <input type="reset" value="Reiniciar">
             <ol>
                 
             <li>Configuracion de red es: direccion IPv4/v6, máscara de red(mask), puerta de enlace(Gateway):</li>
