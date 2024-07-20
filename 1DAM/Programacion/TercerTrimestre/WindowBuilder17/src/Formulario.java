@@ -137,7 +137,7 @@ public class Formulario extends JFrame {
 			
 			g.drawString(largo2s, largo1+4, 270);
 			
-			g.drawString(largo2s, largo1+largo2+4, 270);
+			g.drawString(largo3s, largo1+largo2+4, 270);
 			
 			
 		}
