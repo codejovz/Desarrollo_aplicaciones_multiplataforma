@@ -1,4 +1,4 @@
-[1.- Lenguajes de marcas. Lenguajes de visualización](Primer%20trimestre)
+## [1.- Lenguajes de marcas. Lenguajes de visualización](Primer%20trimestre)
 
 **U.1:**  Lenguajes de marcas. Origen, características, elementos y clasificación. Organismos.
 
@@ -7,7 +7,7 @@ y XHTML.
 
 **U.3:** Introducción al lenguaje CSS.
 
-### [2.- Lenguajes de almacenamiento y transmisión de información. XML.](Segundo%20trimestre)
+## [2.- Lenguajes de almacenamiento y transmisión de información. XML.](Segundo%20trimestre)
 
 **U.4:** Lenguajes de almacenamiento y transmisión de información. Tipos.
 
