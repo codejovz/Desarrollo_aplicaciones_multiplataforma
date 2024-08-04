@@ -1,9 +1,0 @@
-lista=[10,20,30,40]
-print(lista)
-print(lista.pop(0))
-print(lista)
-print(lista.append(0))
-print(lista)
-print(lista.pop(0))
-print(lista.pop(1))
-print(lista)

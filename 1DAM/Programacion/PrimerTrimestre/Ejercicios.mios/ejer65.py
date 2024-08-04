@@ -1,7 +1,0 @@
-nombre=input("Introduce un nombre con mayus y minus")
-nombre2=nombre.upper()
-print(nombre2)
-nombre3=nombre.lower()
-print(nombre3)
-nombre4=nombre.capitalize()
-print(nombre4)

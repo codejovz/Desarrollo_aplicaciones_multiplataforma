@@ -1,5 +1,0 @@
-nombre=input("Introduce un nombre: ")
-print("El primer carácter es la letra:")
-print(nombre[0])
-print("Y el numero de letras que tiene es")
-print(len(nombre))
