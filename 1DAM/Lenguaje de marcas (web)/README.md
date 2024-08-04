@@ -18,7 +18,7 @@ y XHTML.
 **U.7:** Almacenamiento de información.
 
 
-## [3.- Redifusión de contenidos. Sistemas de gestión de información.](Tercer trimestre)
+## 3.- Redifusión de contenidos. Sistemas de gestión de información.
 
 U.8: Aplicación de los lenguajes de marcas a la sindicación (redifusión) de contenidos.
 
