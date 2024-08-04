@@ -1,0 +1,77 @@
+
+body{
+  background-color: lightsalmon;
+}
+
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#fondotot{
+    background-color: rgb(255, 163, 163);
+    padding-bottom: 20px;
+  }
+
+  #primero{
+    border-radius: 20px;
+    border: 3px solid black;
+    position: relative;
+    width: 540px;
+    background-color: white;
+    left: 10px;
+    padding-block: 10px;
+    
+  }
+
+  #segundo{
+    position: relative;
+    width: 560px;
+    left: 10px;
+    padding-block: 10px;
+
+  }
+
+  #tercero{
+    position: relative;
+    left: 10px;
+    width: 580px;
+    padding-block: 10px;
+
+  }
+
+  #cuarto{
+    position: relative;
+    left: 10px;
+    width: 600px;
+    padding-block: 10px;
+
+  }
+
+
+
+
+
+  .blanco{
+    background-color: white;
+  }
+
+  .verde{
+    background-color: lightgreen;
+  }
+
+  .azul{
+    background-color: lightblue;
+  }
+
+  td{
+    padding-inline: 26px;
+    border: 2px double rgb(255, 0, 60);
+    font-size: 100%;
+  }
+
+  table{
+    border: 3px solid white;
+    border-collapse: separate;
+    
+   
+  }

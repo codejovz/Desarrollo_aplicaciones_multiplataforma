@@ -1,0 +1,51 @@
+body{
+background: white;
+font-weight: 400;
+font-size: 20px;
+font-style: normal;
+}
+
+
+img{
+    margin-block: 25px;
+    border: 10px;
+    width: 300px;
+}
+
+#primeraimagen{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    border: 10px solid red;
+
+}
+
+#segundaimagen{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    border: 10px solid blue;
+}
+
+#terceraimagen{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: 10px solid yellow;
+}
+
+#cuartaimagen{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: 10px solid black;
+    
+}
+
+
+footer{
+    position: absolute;
+    top: 388mm;
+    left:6mm;
+}
+
