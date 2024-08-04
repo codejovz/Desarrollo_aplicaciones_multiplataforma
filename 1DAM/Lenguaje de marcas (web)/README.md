@@ -1,4 +1,4 @@
-[1.- Lenguajes de marcas. Lenguajes de visualización.](../../1DAM/Lenguaje de marcas (web)/Primer trimestre)
+[1.- Lenguajes de marcas. Lenguajes de visualización.](../1DAM/Lenguaje de marcas (web)/Primer trimestre)
 
 **U.1:**  Lenguajes de marcas. Origen, características, elementos y clasificación. Organismos.
 
