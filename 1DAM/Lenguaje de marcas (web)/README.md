@@ -26,4 +26,4 @@ U.9: Sistemas de gestión empresarial.
 
 ## Destacados:
 
-[![Captura de pantalla ejercicio 1 hoja de ejercicios 3](/1DAM/Lenguaje%20de%20marcas%20(web)/Segundo%20trimestre/Ejercicios_Hoja_3/ejercicio_01/imagenes_ejercicio1/ejer1.png)(https://jotaaloud.github.io/Desarrollo_aplicaciones_multiplataforma/1DAM/Lenguaje%20de%20marcas%20(web)/Segundo%20trimestre/Ejercicios_Hoja_3/ejercicio_01/ejercicio_01.html)
+[![Captura de pantalla ejercicio 1 hoja de ejercicios 3](/1DAM/Lenguaje%20de%20marcas%20(web)/Segundo%20trimestre/Ejercicios_Hoja_3/ejercicio_01/imagenes_ejercicio1/ejer1.png)](https://jotaaloud.github.io/Desarrollo_aplicaciones_multiplataforma/1DAM/Lenguaje%20de%20marcas%20(web)/Segundo%20trimestre/Ejercicios_Hoja_3/ejercicio_01/ejercicio_01.html)
