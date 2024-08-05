@@ -23,3 +23,7 @@ y XHTML.
 U.8: Aplicación de los lenguajes de marcas a la sindicación (redifusión) de contenidos.
 
 U.9: Sistemas de gestión empresarial.
+
+## Destacados:
+
+![Captura de pantalla ejercicio 1 hoja de ejercicios 3](/1DAM/Lenguaje%20de%20marcas%20(web)/Segundo%20trimestre/Ejercicios_Hoja_3/ejercicio_01/imagenes_ejercicio1/ejer1.png)
