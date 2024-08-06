@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE inventores [
+      <!ELEMENT inventores EMPTY>
+      <!ELEMENT inventor EMPTY>
+      <!ATTLIST inventor invento CDATA #REQUIRED>
+      <!ATTLIST inventor nombre ID #REQUIRED>
+    ]>
+
+<!--Errores en el dtd:
+No se especifica nada del elemento 'inventores', siendo éste el nodo que
+actúa como raíz del documento. Tendría que poner que su nodo 
+hijo es 'inventor', y que se pueden poner varios(*/+).
+-->
+
+    <inventores>
+      <inventor nombre="RobertAdler" invento="Mando a distancia" />
+      <inventor nombre="LaszloJosefBiro" invento="Bolígrafo" />
+      <inventor nombre="JosephineGarisCochran" invento="Lavaplatos" />
+      <inventor invento="Fuego" nombre="Prometeo"/>
+</inventores>

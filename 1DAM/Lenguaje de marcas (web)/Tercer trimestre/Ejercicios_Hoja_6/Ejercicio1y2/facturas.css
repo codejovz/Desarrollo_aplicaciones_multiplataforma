@@ -1,0 +1,114 @@
+facturas{
+    background-color: #0000FF;
+    color: #FFFFFF;
+}
+
+factura{
+    background-color: #ff0000;
+    color: #FFFFFF;
+    width: 90%;
+    max-width: 600px;
+    height: 160px;
+    padding-left: 20px;
+    margin-inline: 5%;
+    display: block;
+}
+
+cliente{
+    background-color: #99f7e4;
+    color: #FF0000;
+    width: 90%;
+}
+
+articulo{
+    background-color: #44ff00;
+    color: #FFFFFF;
+    width: 90%;
+    height:90px;
+    display: block;
+    
+}
+
+cod_articulo{
+    color: #000000;
+}
+
+cod_articulo::before{
+    content: "ARTICULO: ";
+    color: #FFFFFF;
+}
+
+nom_articulo{
+    background-color: #FFFF00;
+    color: #0004ff;
+    width: 50%;
+    margin-block: 3px;
+    display: block;
+    text-align: left;
+}
+
+nom_articulo::before{
+    content:"Nombre: ";
+}
+
+cantidad{
+    background-color: #FFFF00;
+    color: #0004ff;
+    width: 50%;
+    margin-block: 3px;
+    display: block;
+    text-align: left;
+}
+
+cantidad::before{
+    content:"Cantidad: ";
+}
+
+precio{
+    color: #000000;
+    width: 50%;
+    bottom: 2px;
+    margin-block: 3px;
+    display: block;
+    text-align: left;
+}
+
+precio::before{
+    content: "Precio: ";
+}
+
+cantidad, nom_articulo, precio{
+    position:relative;
+    left: 49%;
+}
+
+
+cod_cliente{
+    background-color: #9ef5ff;
+    color: #FF0000;
+    width: 90%;
+    margin-bottom: 7px;
+    display: flex;
+    font-weight: 900;
+}
+
+cod_cliente::before{
+    content:"CLIENTE:";
+}
+
+num_fac{
+    color: #000000;
+    margin-left: -7px;
+}
+
+num_fac::before{
+    content:"FACTURA: ";
+    color: #FFFFFF;
+}
+
+articulo :nth-child(4){
+    background-color: #ff00f2;
+}
+
+
+
