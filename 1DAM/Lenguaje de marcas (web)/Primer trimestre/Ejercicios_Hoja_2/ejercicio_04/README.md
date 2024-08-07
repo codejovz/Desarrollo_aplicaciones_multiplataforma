@@ -1,1 +1,1 @@
-[![Captura del ejercicio 4](ejercicio_04/capEjer4.png)](https://jotaaloud.github.io/Desarrollo_aplicaciones_multiplataforma/1DAM/Lenguaje%20de%20marcas%20(web)/Primer%20trimestre/Ejercicios_Hoja_2/ejercicio_04/ejercicio_04.html  )
+[![Captura del ejercicio 4](capEjer4.png)](https://jotaaloud.github.io/Desarrollo_aplicaciones_multiplataforma/1DAM/Lenguaje%20de%20marcas%20(web)/Primer%20trimestre/Ejercicios_Hoja_2/ejercicio_04/ejercicio_04.html  )
