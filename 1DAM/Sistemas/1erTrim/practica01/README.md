@@ -1,3 +1,4 @@
+## 01. Crear una máquina virtual con Ubuntu 22.04, o superior.
 Crear una máquina virtual con VirtualBox e instalar Ubuntu versión 22.04 o superior.
 
 Características:
