@@ -10,3 +10,9 @@ Hecho en Madrid, en un instituto público. <br />
 >Preguntaré a los profesores para que me den su permiso y mencionarles.<br />
 >¡Gracias por mirarlos!
 
+
+### Permisos concedidos hasta ahora: (ninguno)
+- [ ] Formación y Orientación Laboral
+- [ ] Sistemas Informáticos
+
+
