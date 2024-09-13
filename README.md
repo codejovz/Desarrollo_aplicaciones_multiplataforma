@@ -11,7 +11,8 @@ Hecho en Madrid, en un instituto público. <br />
 >¡Gracias por mirarlos!
 
 
-### Permisos concedidos hasta ahora: (ninguno)
+### Permisos concedidos hasta ahora:
+- [x] Ninguno
 - [ ] Formación y Orientación Laboral
 - [ ] Sistemas Informáticos
 
