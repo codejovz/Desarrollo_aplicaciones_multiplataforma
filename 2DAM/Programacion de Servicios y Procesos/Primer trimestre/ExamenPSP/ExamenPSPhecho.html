@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+
+        @supports(backdrop-filter: blur(5px)){
+            #desmarcar{
+                background-color: rgba(255, 255, 255, 0);
+                backdrop-filter: blur(5px);
+            }
+        }
+
+
+        @supports not (backdrop-filter:blur(5px)){
+            #desmarcar{
+                background-color: rgba(255, 255, 255, 0.9);
+            }
+        }
+
+       @media screen {
+
+            div{
+                padding-inline: 2%;
+                padding-top: 40px;
+            }
+
+        }
+
+        @media screen and (min-width: 760px) {
+
+            div{
+                padding-inline: 20%;
+            }
+        }
+
+        @media screen and (min-width: 1100px) {
+
+            div{
+                padding-inline: 30%;
+            }
+
+        }
+
+        li{
+            margin-top: 10px;
+        }
+
+        #desmarcar{
+            position: fixed;
+            left: 20px;
+            top: -40px;
+            width: 100%;
+            border: 2px solid white;
+            border-radius: 16px;
+        }
+
+    </style>
+    <title>Hecho Examen Sistemas</title>
+
+    
+</head>
+<body>
+
+    <div>
+        <div id="desmarcar"><p><a href="index.html">Desmarcar</a></p></div>
+
+        <form action="mailto:nadie@nada.es" method="post" enctype="text/plain">
+
+            <ol>
+                
+            <li>¿Cuál de las siguientes afirmaciones es correcta sobre los ejecutables y procesos?</li>
+            <input  type="radio" name="pregunta1" value="incorrecto"/> Los archivos .JAR son ejecutables y pueden ser ejecutados directamente por el sistema
+            operativo.<br />
+            <input  type="radio" name="pregunta1" value="incorrecto"/>Un proceso es simplemente un archivo que se encuentra en el sistema,
+            independientemente de si está en ejecución.<br />
+            <input  type="radio" name="pregunta1" value="correcto" checked/>Cada instancia del mismo programa en ejecución se ejecuta en un proceso diferente.<br />
+            <input  type="radio" name="pregunta1" value="incorrecto"/>Un servicio es un tipo de ejecutable que requiere la interacción del usuario para
+            funcionar.<br />
+
+            <li>¿Cuál de las siguientes afirmaciones es correcta sobre los estados de un proceso y su
+                planificación?
+            </li>
+            <input  type="radio" name="pregunta2" value="incorrecto"/>Un proceso en estado "bloqueado" está en ejecución y no puede ser interrumpido.<br />
+            <input  type="radio" name="pregunta2" value="correcto" checked/>Un proceso pasa de "en ejecución" a "listo" cuando se le acaba el tiempo asignado por
+            el sistema operativo.<br />
+            <input  type="radio" name="pregunta2" value="incorrecto"/> Un proceso en "listo" está esperando la finalización de un evento externo para
+            continuar<br />
+            <input  type="radio" name="pregunta2" value="incorrecto"/>La planificación de procesos permite que un proceso en "bloqueado" ejecute
+            instrucciones de inmediato.<br />
+
+            <li>¿Cuál de las siguientes afirmaciones es correcta sobre la gestión de procesos en
+                sistemas Linux y Windows PowerShell?</li>
+            <input  type="radio" name="pregunta3" value="incorrecto"/>El comando ps en Linux solo muestra los procesos en ejecución en primer plano.<br />
+            <input  type="radio" name="pregunta3" value="incorrecto"/>En Linux, un proceso puede ser llevado a primer plano usando el comando bg.<br />
+            <input  type="radio" name="pregunta3" value="incorrecto"/>El comando kill en Linux se utiliza para finalizar procesos utilizando su nombre.<br />
+            <input  type="radio" name="pregunta3" value="correcto" checked/>En Windows PowerShell, se puede ejecutar un comando en segundo plano
+            anteponiendo start-process al comando.<br />
+
+            <li>¿Cuál de las siguientes afirmaciones es correcta sobre la programación concurrente
+                y paralela?
+                </li>
+            <input  type="radio" name="pregunta4" value="correcto" checked/>La programación concurrente permite que múltiples procesos se ejecuten
+            simultáneamente en un único procesador<br />
+            <input  type="radio" name="pregunta4" value="incorrecto"/>La programación paralela requiere que las tareas sean ejecutadas en un solo procesador
+            para mejorar el rendimiento.<br />
+            <input  type="radio" name="pregunta4" value="incorrecto"/>La programación concurrente es más simple porque no requiere mecanismos de
+            sincronización.<br />
+            <input  type="radio" name="pregunta4" value="incorrecto"/>En programación distribuida, los equipos clientes son responsables de atender las
+            demandas de otros equipos.<br />
+
+            <li>¿Cuál de las siguientes afirmaciones es correcta sobre las herramientas gráficas para
+                la gestión de procesos en sistemas operativos?</li>
+            <input  type="radio" name="pregunta5" value="incorrecto"/>KDE System Guard y Gnome System Monitor son herramientas gráficas exclusivas de
+            Windows<br />
+            <input  type="radio" name="pregunta5" value="incorrecto"/>El Administrador de tareas en Windows solo permite finalizar procesos, sin mostrar
+            información adicional.<br />
+            <input  type="radio" name="pregunta5" value="incorrecto"/>Process Explorer en Windows proporciona información básica sobre los procesos en
+            ejecución.<br />
+            <input  type="radio" name="pregunta5" value="correcto" checked/>Tanto en Linux como en Windows, existen herramientas gráficas que permiten
+            gestionar y visualizar procesos.<br />
+
+            <li>¿Cuál de las siguientes afirmaciones es correcta sobre la programación de hilos en
+                Java?
+                </li>
+            <input  type="radio" name="pregunta6" value="incorrecto"/>Para crear un hilo en Java, es necesario implementar la interfaz Runnable y no se
+            puede heredar de la clase Thread.<br />
+            <input  type="radio" name="pregunta6" value="incorrecto"/>El método start() se utiliza para detener un hilo que está en ejecución<br />
+            <input  type="radio" name="pregunta6" value="correcto" checked/>La clase Thread permite que un hilo llame a join() para esperar a que otro hilo finalice.<br />
+            <input  type="radio" name="pregunta6" value="incorrecto"/>El método stop() es recomendado para finalizar hilos de manera segura y eficaz.<br />
+
+            <li>¿Cuál de las siguientes afirmaciones es correcta sobre los estados de un hilo en Java?</li>
+            <input  type="radio" name="pregunta7" value="incorrecto"/>Un hilo en estado RUNNABLE está siempre en ejecución y nunca puede ser
+            bloqueado.<br />
+            <input  type="radio" name="pregunta7" value="incorrecto"/>El estado NEW se alcanza cuando se llama al método start() del hilo.<br />
+            <input  type="radio" name="pregunta7" value="correcto" checked/>Un hilo en estado BLOCKED está esperando a que se complete una operación de E/S
+            o intentando bloquear un objeto bloqueado por otro hilo.<br />
+            <input  type="radio" name="pregunta7" value="incorrecto"/>El estado TERMINATED se alcanza únicamente cuando el hilo es interrumpido con el
+            método stop().<br />
+
+            <li>¿Cuál de las siguientes afirmaciones es correcta sobre la gestión de hilos en Java?</li>
+            <input  type="radio" name="pregunta8" value="incorrecto"/>El método stop() es la forma recomendada para forzar la finalización de un hilo de
+            manera segura<br />
+            <input  type="radio" name="pregunta8" value="incorrecto"/> Para pausar un hilo, se puede utilizar el método suspend() sin problemas en las
+            versiones más recientes de Java<br />
+            <input  type="radio" name="pregunta8" value="correcto" checked/>Para detener un hilo de forma segura, se debe modificar un atributo booleano que
+            controle su ejecución dentro del método run().<br />
+            <input  type="radio" name="pregunta8" value="incorrecto"/>Se debe usar el método wait() para finalizar un hilo de manera inmediata.<br />
+
+            <li>¿Cuál de las siguientes afirmaciones sobre la sincronización de hilos es correcta?</li>
+            <input  type="radio" name="pregunta9" value="incorrecto"/> Los métodos notify() y notifyAll() sirven para que un hilo pause temporalmente su
+            ejecución.<br />
+            <input  type="radio" name="pregunta9" value="incorrecto"/>La palabra reservada synchronized se utiliza para que varios hilos puedan ejecutar un
+            mismo bloque de código simultáneamente<br />
+            <input  type="radio" name="pregunta9" value="correcto" checked/>Los métodos wait(), notify(), y notifyAll() permiten la sincronización de hilos
+            mediante la gestión del acceso a recursos compartidos.<br />
+            <input  type="radio" name="pregunta9" value="incorrecto"/>join() se utiliza para sincronizar los hilos en la ejecución de un mismo bloque de
+            código.<br />
+
+            <li>¿Cuál de las siguientes afirmaciones sobre el modelo Productor-Consumidor es
+                correcta?</li>
+            <input  type="radio" name="pregunta10" value="incorrecto"/>El modelo Productor-Consumidor se basa en que los hilos productores consumen datos
+            generados por los hilos consumidores para evitar la pérdida de información.<br />
+            <input  type="radio" name="pregunta10" value="incorrecto"/>En el modelo Productor-Consumidor, los hilos productores y consumidores no pueden
+            coexistir, ya que ambos deben operar en bloques de código independientes.<br />
+            <input  type="radio" name="pregunta10" value="correcto" checked/>El modelo Productor-Consumidor permite la comunicación entre hilos, donde uno o
+            varios hilos producen datos y uno o varios hilos consumen esos datos.<br />
+            <input  type="radio" name="pregunta10" value="incorrecto"/> La técnica de la “píldora de veneno” se utiliza para que los productores detengan a los
+            consumidores cuando han terminado de consumir todos los datos.<br />
+ 
+
+            
+            </ol>
+
+
+        </form>
+
+    </div>
+
+</body>
+</html>
