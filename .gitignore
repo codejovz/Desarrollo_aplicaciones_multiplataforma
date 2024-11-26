@@ -1,0 +1,56 @@
+# Entorno java ------------------------------------------------------
+
+# Ignorar archivos compilados
+*.class
+
+# Ignorar directorios de compilación
+/build/
+/out/
+
+# Ignorar archivos de configuración del IDE
+/.idea/
+/*.iml
+
+# Ignorar archivos de sistema
+.DS_Store
+
+# Ignorar logs y archivos temporales
+*.log
+*.tmp
+
+# Ignorar dependencias descargadas por Maven o Gradle
+/.mvn/
+/target/
+/.gradle/
+
+# Entorno .Net ------------------------------------------------------
+
+# Archivos de configuración y temporales de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Directorios de salida de compilación
+bin/
+obj/
+
+# Archivos generados por el sistema
+*.log
+*.tlog
+
+# Archivos de configuración del IDE
+.vs/
+*.csproj.user
+
+# Archivos de paquetes y dependencias
+packages/
+*.nupkg
+*.nuspec
+
+# Archivos de publicación y despliegue
+publish/
+*.publishsettings
+
+# Otros archivos innecesarios
+_ReSharper*/

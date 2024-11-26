@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+       @media screen {
+
+            div{
+                padding-inline: 2%;
+                padding-top: 40px;
+            }
+
+            #desmarcar{
+                background-color: rgba(255, 255, 255, 0);
+                  -webkit-backdrop-filter: blur(5px);
+                   backdrop-filter: blur(5px);
+            }
+
+        }
+
+        @media screen and (min-width: 760px) {
+
+            div{
+                padding-inline: 20%;
+            }
+
+            #desmarcar{
+                background-color: rgba(255, 255, 255, 0);
+                backdrop-filter: blur(5px);
+            }
+
+        }
+
+        @media screen and (min-width: 1100px) {
+
+            div{
+                padding-inline: 30%;
+            }
+
+            #desmarcar{
+                background-color: rgba(255, 255, 255, 0);
+                backdrop-filter: blur(5px);
+            }
+
+        }
+
+        li{
+            margin-top: 10px;
+        }
+
+        #desmarcar{
+            position: fixed;
+            left: 20px;
+            top: -40px;
+            width: 100%;
+            border: 2px solid white;
+            border-radius: 16px;
+        }
+
+    </style>
+    <title>Hecho Examen Sistemas</title>
+
+    
+</head>
+<body>
+
+    <div>
+        <div id="desmarcar"><p><a href="index.html">Desmarcar</a></p></div>
+
+        <form action="mailto:nadie@nada.es" method="post" enctype="text/plain">
+
+            <ol>
+                
+            <li>Configuracion de red es: direccion IPv4/v6, máscara de red(mask), puerta de enlace(Gateway):</li>
+            <input  type="radio" name="pregunta1" value="SI" checked/>SI
+            <input  type="radio" name="pregunta1" value="NO"/>NO
+        
+            <li>La configuracion de red es: direccion ipv4/v6, máscara de red(mask), puerta de enlace(Gateway), servidor/es DNS</li>
+            <input  type="radio" name="pregunta2" value="SI" checked/>SI
+            <input  type="radio" name="pregunta2" value="NO"/>NO
+
+            <li>La configuracion de red es: Dirección ipv4/v6, máscara de red(mask)</li>
+            <input  type="radio" name="pregunta3" value="SI"/>SI
+            <input  type="radio" name="pregunta3" value="NO" checked/>NO
+
+            <li>Si un equipo no tiene mascara de red pero si tiene direccion de ip, entonces si puede comunicarse por otros equipos?</li>
+            <input  type="radio" name="pregunta4" value="SI"/>SI
+            <input  type="radio" name="pregunta4" value="NO" checked/>NO
+
+            <li>Dos equipos en la misma red de área local pero con diferentes mascaras de red no pueden comunicarse entre si</li>
+            <input  type="radio" name="pregunta5" value="SI"/>SI
+            <input  type="radio" name="pregunta5" value="NO" checked/>NO
+
+            <li> En una red de area local puede haber equipos que tengan distintas mascaras de red</li>
+            <input  type="radio" name="pregunta6" value="SI"/>SI
+            <input  type="radio" name="pregunta6" value="NO" checked/>NO
+
+            <li>En una red de area local solo puede haber un equipo que haga puerta de enlace(Gateway)</li>
+            <input  type="radio" name="pregunta7" value="SI"/>SI
+            <input  type="radio" name="pregunta7" value="NO" checked/>NO
+
+            <li>La mascara de red (mask) sirve para:</li>
+            <input  type="radio" name="pregunta8" value="SI"/>Determinar si un equipo puede navegar por internet<br />
+            <input  type="radio" name="pregunta8" value="SI"/>Detectar si un equipo tiene una configuracion correcta de la red.<br />
+            <input  type="radio" name="pregunta8" value="SI" checked/>Decidir a que equipo enviar los paquetes de una comunicacion con otro equipo <br />
+            <input  type="radio" name="pregunta8" value="SI"/>Filtrar los paquetes que no cumplan con la mascara de red <br />
+            <input  type="radio" name="pregunta8" value="SI"/>Ninguna de las anteriores
+
+            <li>La direcciones privadas de red estan reservadas para los equipos privados de los empleados, las direcciones publicas de red son para equipos de la empresa</li>
+            <input  type="radio" name="pregunta9" value="SI"/>SI
+            <input  type="radio" name="pregunta9" value="NO" checked/>NO
+
+            <li>Con NAT se puede navegar por internet con los equipos o puestos de trabajo desde casa</li>
+            <input  type="radio" name="pregunta10" value="SI" checked/>SI
+            <input  type="radio" name="pregunta10" value="NO"/>NO
+
+            <li>Un equipo puede comunicarse con otros equipos aunque no tenga configuracion de DNS</li>
+            <input  type="radio" name="pregunta11" value="SI" checked/>SI
+            <input  type="radio" name="pregunta11" value="NO"/>NO
+
+            <li>Un equipo puede navegar por la web aunque no tenga configuracion de DNS</li>
+            <input  type="radio" name="pregunta12" value="SI"/>SI
+            <input  type="radio" name="pregunta12" value="NO" checked/>NO
+
+            <li>Siempre hay que usar servidores DNS especificos para la red de area local en la que estan conectados los equipos?</li>
+            <input  type="radio" name="pregunta13" value="SI"/>SI
+            <input  type="radio" name="pregunta13" value="NO" checked/>NO
+
+            <li>Un equipo puede comunicarse con otros equipos aunque no tenga configuracion de DHCP</li>
+            <input  type="radio" name="pregunta14" value="SI" checked/>SI
+            <input  type="radio" name="pregunta14" value="NO"/>NO
+
+            <li>En una red de area local con servidor DHCP todos los equipos tienen que tener configuracion dinamica con DHCP</li>
+            <input  type="radio" name="pregunta15" value="SI"/>SI
+            <input  type="radio" name="pregunta15" value="NO"checked/>NO
+
+            <li>El comando ping asegura que un equipo sea operativo y se puede conectar con el mismo </li>
+            <input  type="radio" name="pregunta16" value="SI"/>SI
+            <input  type="radio" name="pregunta16" value="NO" checked/>NO
+
+            <li>Con el comando ping a un equipo no se puede asegurar que dicho equipo este operativo</li>
+            <input  type="radio" name="pregunta17" value="SI" checked/>SI
+            <input  type="radio" name="pregunta17" value="NO"/>NO
+
+            <li>Con el comando ping a un equipo no se puede asegurar que un equipo no este operativo</li>
+            <input  type="radio" name="pregunta18" value="SI" checked/>SI
+            <input  type="radio" name="pregunta18" value="NO"/>NO
+
+            <li>El administrador de equipos permite gestionar todos los aspectos de un equipo de Windows</li>
+            <input  type="radio" name="pregunta19" value="SI"/>SI
+            <input  type="radio" name="pregunta19" value="NO" checked/>NO
+
+            <li>Todo lo que ocurre en un equipo de Windows queda registrado como evento y se puede consultar con el Visor de Eventos</li>
+            <input  type="radio" name="pregunta20" value="SI" checked/>SI
+            <input  type="radio" name="pregunta20" value="NO"/>NO
+           
+            <li>El administrador de Discos de Windows se utiliza para formatear discos, y para gestionar particiones</li>
+            <input  type="radio" name="pregunta21" value="SI" checked/>SI
+            <input  type="radio" name="pregunta21" value="NO"/>NO
+
+            <li>El administrador de dispositivos permite desconectar de manera segura  un dispositivo USB de almacenamiento conectado</li>
+            <input  type="radio" name="pregunta22" value="SI"/>SI
+            <input  type="radio" name="pregunta22" value="NO" checked/>NO
+
+            <li>A las Carpetas compartidas de windows siempre pueden acceder todos los equipos que esten en la misma red de area local </li>
+            <input  type="radio" name="pregunta23" value="SI"/>SI
+            <input  type="radio" name="pregunta23" value="NO" checked/>NO
+
+            <li>Los servicios de windows son todos aquellos programas, procesos, aplicaciones, que no se ejecutan desde el escritorio</li>
+            <input  type="radio" name="pregunta24" value="SI" checked/>SI
+            <input  type="radio" name="pregunta24" value="NO"/>NO
+
+            <li>Los servicios de windows son todos aquellos programas, procesos, aplicaciones, necesarios para el correcto funcionamiento de windows</li>
+            <input  type="radio" name="pregunta25" value="SI" checked/>SI
+            <input  type="radio" name="pregunta25" value="NO"/>NO
+
+            <li>Para instalar ina aplicacion en windows siempre se necesita un instalador</li>
+            <input  type="radio" name="pregunta26" value="SI"/>SI
+            <input  type="radio" name="pregunta26" value="NO" checked/>NO
+
+            <li>La fecha y hora de un equipo siempre es la oficial del pais o region donde se encuentra el equipo</li>
+            <input  type="radio" name="pregunta27" value="SI"/>SI
+            <input  type="radio" name="pregunta27" value="NO" checked/>NO
+
+            <li>El lenguaje/idioma y teclado de un equipo de windows unicamente pueden ser del pais en que se encuenta el equipo</li>
+            <input  type="radio" name="pregunta28" value="SI"/>SI
+            <input  type="radio" name="pregunta28" value="NO" checked/>NO
+
+            <li>El firewall de windows unicamente controla todas las comunicaciones de Windows unicamente controla todas las comunicaciones entrantes de un equipo de windows</li>
+            <input  type="radio" name="pregunta30" value="SI"/>SI
+            <input  type="radio" name="pregunta30" value="NO" checked/>NO
+
+            <li>Las copias de seguridad de windows siempre se haran cuando no se utilice un equipo por los usuarios </li>
+            <input  type="radio" name="pregunta31" value="SI"/>SI
+            <input  type="radio" name="pregunta31" value="NO" checked/>NO
+
+            <li>Las copias de seguridad de windows siempre se haran todos los dias</li>
+            <input  type="radio" name="pregunta32" value="SI"/>SI
+            <input  type="radio" name="pregunta32" value="NO" checked/>NO
+
+            <li>No es necesario hacer copia de seguridad en todos los equipos</li>
+            <input  type="radio" name="pregunta33" value="SI" checked/>SI
+            <input  type="radio" name="pregunta33" value="NO"/>NO
+
+            <li>Un directorio compartido de un equipo Windows es el que se puede acceder desde cualquier otro equipo de la misma red de area local</li>
+            <input  type="radio" name="pregunta34" value="SI" checked/>SI
+            <input  type="radio" name="pregunta34" value="NO"/>NO
+
+            <li>Una unidad de red de windows es un directorio compartido al que se asigna una letra para acceder como si fuera otro disco del equipo</li>
+            <input  type="radio" name="pregunta35" value="SI" checked/>SI
+            <input  type="radio" name="pregunta35" value="NO"/>NO
+
+            <li>Una unidad de red de windows es un directorio compartido siempre de otro equipo al que se asigna una letra para acceder como si fuera otro disco del equipo</li>
+            <input  type="radio" name="pregunta36" value="SI"/>SI
+            <input  type="radio" name="pregunta36" value="NO" checked/>NO
+
+            <li>Una unidad de red de windows se gestiona como cualquier otro disco mediante el administrador de discos.</li>
+            <input  type="radio" name="pregunta37" value="SI"/>SI
+            <input  type="radio" name="pregunta37" value="NO" checked/>NO
+
+            <li>Con el cliente de escritorio remoto se puede trabajar en otro equipo(remoto) como si se estuviera fisicamente en el equipo remoto</li>
+            <input  type="radio" name="pregunta38" value="SI" checked/>SI
+            <input  type="radio" name="pregunta38" value="NO"/>NO
+
+            <li>Cualquiera que conozca el nombre o la direccion de red en un equipo windows puede conectarse en cualquier momento al cliente de escritorio remoto </li>
+            <input  type="radio" name="pregunta39" value="SI"/>SI
+            <input  type="radio" name="pregunta39" value="NO" checked/>NO
+
+            </ol>
+
+
+        </form>
+
+    </div>
+
+</body>
+</html>
