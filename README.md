@@ -29,7 +29,9 @@ Hecho en Madrid, en un instituto público.
 >¡Gracias por mirarlos!
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jotaaloud&repo=Desarrollo_aplicaciones_multiplataforma&langs_count=20)](https://github.com/jotaaloud/Desarrollo_aplicaciones_multiplataforma)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jotaaloud&repo=Desarrollo_aplicaciones_multiplataforma&locale=es&langs_count=8)](https://github.com/jotaaloud/Desarrollo_aplicaciones_multiplataforma)
+<!--Chart form https://github.com/anuraghazra/github-readme-stats/tree/master-->
+
 
 ### Permisos concedidos hasta ahora:
 - [x] Ninguno
