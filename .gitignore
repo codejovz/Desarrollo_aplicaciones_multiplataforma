@@ -54,3 +54,36 @@ publish/
 
 # Otros archivos innecesarios
 _ReSharper*/
+
+# Android Studio específico
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+
+# Archivos generados por el compilador de Kotlin
+*.kotlin_module
+
+# Archivos específicos de Android
+/*/build/
+*.apk
+*.aab
+output.json
+
+# Proguard
+proguard/
+
+# Archivos de respaldo
+*.bak
+
+# Archivos de configuración local
+local.properties

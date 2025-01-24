@@ -1,3 +1,5 @@
+## Haz click en las fotos para acceder a las webs!
+
 
 Adapte los ejercicios primero, cuarto y octavo de la segunda hoja de actividades de HTML para que cumplan con las especificaciones del estándar XHTML.
 
