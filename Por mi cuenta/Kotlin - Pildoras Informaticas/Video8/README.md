@@ -14,7 +14,7 @@ En [Kotlin Playground](https://play.kotlinlang.org/) se puede añadir argumentos
 
 ```.sum()``` suma las iteraciones.
 
-```size()``` da el tamaño del array.
+```.size``` da el tamaño del array.
 
 Los argumentos que recibe kotlin, igual que en java, son obligatoriamente en **TEXTO**, no se le pueden pasar directamente ints.
 
