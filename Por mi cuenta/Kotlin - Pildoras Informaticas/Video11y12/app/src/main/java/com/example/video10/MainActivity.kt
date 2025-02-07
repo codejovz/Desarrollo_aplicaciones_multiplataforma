@@ -28,11 +28,12 @@ class MainActivity : AppCompatActivity() {
         val et1: EditText =findViewById(R.id.et1)
 
         val btn1: Button =findViewById(R.id.btn1)
-
         val tv1: TextView =findViewById(R.id.tv1)
+        val btnPlus:Button = findViewById(R.id.btnPlus)
+        val btnMinus:Button = findViewById(R.id.btnMinus)
 
         btn1.setOnClickListener {
-            val numero=et1.text.toString().toIntOrNull()
+            var numero=et1.text.toString().toIntOrNull()
 
             /*if(numero==null) tv1.text="Introduce algo, hombre!"
             else if(numero<18) tv1.text="Eres menor de edad"
@@ -48,6 +49,26 @@ class MainActivity : AppCompatActivity() {
             else if(numero>18) "Eres mayor de edad"
 
             else "Tienes justo 18 años"
+        }
+
+        btnPlus.setOnClickListener{
+
+            var numero=et1.text.toString().toIntOrNull()
+
+            if(numero==null) tv1.text="Introduce algo, hombre!"
+
+            else et1.setText((++numero).toString())
+
+        }
+
+        btnMinus.setOnClickListener{
+
+            var numero=et1.text.toString().toIntOrNull()
+
+            if(numero==null) tv1.text="Introduce algo, hombre!"
+
+            else et1.setText((--numero).toString())
+
         }
     }
 }

@@ -31,5 +31,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-" />
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
