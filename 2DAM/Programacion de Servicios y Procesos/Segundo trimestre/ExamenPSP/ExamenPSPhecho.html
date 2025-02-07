@@ -57,7 +57,38 @@
             border-radius: 16px;
         }
 
-    </style>
+        .respDes{
+            width: 100%;
+            padding-inline: 0;
+            
+        }
+
+        div pre code{
+            padding-inline: 0;
+        }
+
+
+        pre, code{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow-y: visible;
+        }
+
+        tr{
+           
+        }
+
+        td{
+
+            border: 2px solid black;
+            padding: 4px;
+            background-color: rgb(239, 247, 255);
+        }
+
+
+    </style>s
     <title>Hecho Examen PSP 2 Trim</title>
 
     
@@ -154,6 +185,129 @@
                 <input  type="radio" name="pregunta10" value="incorrecto"/>Ha sido reemplazado por HTTP en la mayoría de los sistemas modernos.
                 <br />
 
+                <ol class="desarrollo">
+
+                    <li>Explica las diferencias entre el protocolo TELNET y el SSH (1P).</li>
+                    <div class="respDes" id="respDes1">
+                        <table>
+                            <tr>
+                                <td>Telnet</td>
+                                <td>SSH</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Protocolo a nivel de aplicación.</td>
+                            </tr>
+                            <tr>
+                                <td>Basado en TCP para terminal remoto (modo texto).</td>
+                                <td>Y también TCP / IP.</td>
+                            </tr>
+                            <tr>
+                                <td>Puerto 23 por defecto.</td>
+                                <td>Puerto 22 por defecto.</td>
+                            </tr>
+                            <tr>
+                                <td>Se puede usar con Apache Commons Net.</td>
+                                <td>NO Apache Commons Net.</td>
+                            </tr>
+                            <tr>
+                                <td>No cifrado.</td>
+                                <td>Cifrado.</td>
+                            </tr>
+                        </table>
+
+
+
+
+                    </div>
+    
+                    <li>Explica las diferencias entre el protocolo SMTP y POP3 (1P).</li>
+                    <div class="respDes" id="respDes2">
+                        <table>
+                            <tr>
+                                <td>SMTP</td>
+                                <td>POP3</td>
+                            </tr>
+                            <tr>
+                                <td>Protocolo estándar para intercambio de correos electrónicos.</td>
+                                <td>Protocolo para acceso a mensajes de servidores SMTP.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Funciona con comandos de texto.</td>
+                            </tr>
+                            <tr>
+                                <td>Puerto 25</td>
+                                <td>Puerto 110</td>
+                            </tr>
+                            <tr>
+                                <td>Servidor responde con número y mensaje descriptivo.</td>
+                                <td></td>
+                            </tr>
+                        </table>
+
+                    </div>
+    
+                    <li>Explica las diferencias entre el protocolo UDP y TCP</li>
+                        <div class="respDes" id="respDes3">
+                            <table>
+                                <tr>
+                                    <td>Protocolo UDP (Protocolo Datagramas Usuario).</td>
+                                    <td>Protocolo TCP (Ptrotocolo Control Transferencia).</td>
+                                </tr>
+                                <tr>
+                                    <td>Sencillo, no orientado a conexion</td>
+                                    <td>Complejo, orientado a conexion => Conexion entre 2 sockets antes de enviar la informacion.</td>
+                                </tr>
+                                <tr>
+                                    <td>Envia datagramas de un socket a otro.</td>
+                                    <td>Envia paquetes de datos llamados segmentos.</td>
+                                </tr>
+                                <tr>
+                                    <td>Datagramas pueden llegar desordenados</td>
+                                    <td>Segmentos llegan ordenados</td>
+                                </tr>
+                                <tr>
+                                    <td>Sin control de errores.</td>
+                                    <td>Con control de errores.</td>
+                                </tr>
+                                <tr>
+                                    <td>No reenvia datagramas perdidos.</td>
+                                    <td>Reenvia segmentos perdidos / erróneos.</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Ejemplos usados en capa de aplicacion:</td>
+                                </tr>
+                                <tr>
+                                    <td>DNS / DHCP</td>
+                                    <td>FTP / HTTP</td>
+                                </tr>
+
+                            </table>
+
+                        </div>
+    
+                    <li>Realiza un servidor de sockets UDP que imprima por pantalla si el cliente se ha conectado (1P).</li>
+                    <div class="respDes" id="respDes4"></div>
+                
+                    <li>Realiza un cliente de sockets TCP que imprima por pantalla todo lo que recibe desde un servidor TCP (1P).</li>
+                    <div class="respDes" id="respDes5"></div>
+    
+                    <li>Realiza un prop para conectarte al sistema SMTP de gmail (1P).</li>
+                    <div class="respDes">
+                        <pre><code class="language-java">
+props.put("mail.smtp.host", "smtp.gmail.com");
+props.put("mail.smtp.user", remitente);
+props.put("mail.smtp.password", claveemail);
+props.put("mail.smtp.auth", "true");
+props.put("mail.smtp.ssl.enable", "true");
+props.put("mail.smtp.port", "465");
+//Uso de TLS 1.2
+props.put("mail.smtp.starttls.enable", "true");
+props.put("mail.smtp.ssl.protocols", "TLSv1.2");
+                        </code></pre>
+                      </div>
+                                      
+                </ol>
+
             
             </ol>
 
@@ -163,4 +317,9 @@
     </div>
 
 </body>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-java.min.js"></script>
+
 </html>
