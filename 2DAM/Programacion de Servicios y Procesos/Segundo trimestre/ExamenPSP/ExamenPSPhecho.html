@@ -286,10 +286,71 @@
                         </div>
     
                     <li>Realiza un servidor de sockets UDP que imprima por pantalla si el cliente se ha conectado (1P).</li>
-                    <div class="respDes" id="respDes4"></div>
+                    <div class="respDes" id="respDes4"><pre><code class="language-java">
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+                        
+public class UDPServidor {
+                        
+    private static final int PUERTO = 12345;
+                        
+    public static void main(String[] args) {
+        try (DatagramSocket socket = new DatagramSocket(PUERTO)) {
+            byte[] buffer = new byte[1024];
+                        
+            System.out.println("Servidor UDP escuchando en el puerto " + PUERTO);
+                        
+            while (true) {
+                DatagramPacket paquete = new DatagramPacket(buffer, buffer.length);
+                socket.receive(paquete);
+                        
+                InetAddress direccionCliente = paquete.getAddress();
+                int puertoCliente = paquete.getPort();
+                        
+                System.out.println("Cliente conectado desde " + direccionCliente.getHostAddress() + ":" + puertoCliente);
+            }
+        } catch (Exception e) {
+            System.err.println("Error: " + e.getMessage());
+        }
+    }
+}
+
+
+
+</code></pre></div>
                 
                     <li>Realiza un cliente de sockets TCP que imprima por pantalla todo lo que recibe desde un servidor TCP (1P).</li>
-                    <div class="respDes" id="respDes5"></div>
+                    <div class="respDes" id="respDes5"><pre><code class="language-java">
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.Socket;
+                        
+public class TCPCliente {
+                        
+    public static void main(String[] args) {
+        String hostServidor = "localhost";
+         int puertoServidor = 6000;
+                        
+        try (Socket cliente = new Socket(hostServidor, puertoServidor);
+            BufferedReader entrada = new BufferedReader(new InputStreamReader(cliente.getInputStream()))) {
+                        
+            System.out.println("Conectado al servidor TCP en " + hostServidor + ":" + puertoServidor);
+                        
+            String linea;
+             while ((linea = entrada.readLine()) != null) {
+                      System.out.println("Recibido: " + linea);
+             }
+                        
+             System.out.println("Conexión cerrada por el servidor.");
+                        
+        } catch (IOException e) {
+             System.err.println("Error: " + e.getMessage());
+        }
+    }
+}
+</code></pre></div>
     
                     <li>Realiza un prop para conectarte al sistema SMTP de gmail (1P).</li>
                     <div class="respDes">
@@ -299,7 +360,7 @@ props.put("mail.smtp.user", remitente);
 props.put("mail.smtp.password", claveemail);
 props.put("mail.smtp.auth", "true");
 props.put("mail.smtp.ssl.enable", "true");
-props.put("mail.smtp.port", "465");
+props.put("mail.smtp.port", "587");
 //Uso de TLS 1.2
 props.put("mail.smtp.starttls.enable", "true");
 props.put("mail.smtp.ssl.protocols", "TLSv1.2");
