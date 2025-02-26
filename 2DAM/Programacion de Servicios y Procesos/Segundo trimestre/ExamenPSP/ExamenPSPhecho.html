@@ -331,7 +331,7 @@ public class TCPCliente {
                         
     public static void main(String[] args) {
         String hostServidor = "localhost";
-         int puertoServidor = 6000;
+         int puertoServidor = 12345;
                         
         try (Socket cliente = new Socket(hostServidor, puertoServidor);
             BufferedReader entrada = new BufferedReader(new InputStreamReader(cliente.getInputStream()))) {

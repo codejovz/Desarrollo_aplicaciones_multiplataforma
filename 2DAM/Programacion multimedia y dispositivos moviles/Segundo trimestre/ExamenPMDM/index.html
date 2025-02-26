@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+      @supports(backdrop-filter: blur(5px)){
+            #soluciones{
+                background-color: rgba(255, 255, 255, 0);
+                backdrop-filter: blur(5px);
+            }
+        }
+
+
+        @supports not (backdrop-filter:blur(5px)){
+            #soluciones{
+                background-color: rgba(255, 255, 255, 0.9);
+            }
+        }
+
+
+        @media screen {
+            div{
+                padding-inline: 2%;
+                padding-top: 40px;
+            }
+
+            input[type="reset"]{
+            right: 20px;
+            }
+
+        }
+
+        @media screen and (min-width: 760px) {
+
+            div{
+                padding-inline: 20%;
+            }
+
+            input[type="reset"]{
+            right: 20%;
+            }
+
+        }
+
+        @media screen and (min-width: 1100px) {
+
+            input[type="reset"]{
+            right: 30%;
+            }
+
+            div{
+                padding-inline: 30%;
+            }
+
+        }
+
+        li{
+            margin-top: 10px;
+        }
+
+        #soluciones{
+            position: fixed;
+            z-index: 1;
+            left: 20px;
+            top: -40px;
+            width: 100%;
+            border: 2px solid white;
+            border-radius: 16px; 
+        }
+
+        input[type="radio"][value="correcto"]:checked{
+            accent-color: green;
+        }
+
+        input[type="radio"][value="incorrecto"]:checked{
+            accent-color: red;
+        }
+        
+        input[type="reset"]{
+            position: fixed;
+            top: 20px;
+            z-index: 2;
+        }
+
+        .respDes{
+            width: 100%;
+            height: 80px;
+            background-color: rgb(239, 247, 255);
+        }
+
+
+    </style>
+    <title>Examen PMDM</title>
+
+    
+</head>
+<body>
+
+    <div>
+        <div id="soluciones"><p><a href="ExamenPMDMhecho.html">Soluciones</a></p></div>
+        
+        <form action="mailto:nadie@nada.es" method="post" enctype="text/plain">
+            <input type="reset" value="Reiniciar">
+            <ol>
+
+            <li>¿Cuál de las siguientes capas de la API multimedia de Android es utilizada directamente por los desarrolladores para interactuar con las funciones multimedia?</li>
+            <input  type="radio" name="pregunta1" value="incorrecto"/>Capa de Hardware Abstraction Layer (HAL)<br />
+            <input  type="radio" name="pregunta1" value="incorrecto"/> Capa Nativa (Native Layer)<br />
+            <input  type="radio" name="pregunta1" value="incorrecto"/>Capa del Kernel de Android<br />
+            <input  type="radio" name="pregunta1" value="correcto"/>Capa de Aplicación<br />
+
+            <li>¿Cuál de los siguientes componentes de la API multimedia de Android se utiliza para gestionar el foco de audio y redireccionar el sonido entre diferentes dispositivos?</li>
+            <input  type="radio" name="pregunta2" value="incorrecto"/>MediaRecorder<br />
+            <input  type="radio" name="pregunta2" value="correcto"/>AudioManager<br />
+            <input  type="radio" name="pregunta2" value="incorrecto"/> MediaCodec<br />
+            <input  type="radio" name="pregunta2" value="incorrecto"/>SurfaceView<br />
+
+            <li>¿Qué componente de Android permite la reproducción de audio y video desde diversas fuentes, como almacenamiento local y streaming en red?</li>
+            <input  type="radio" name="pregunta3" value="incorrecto"/>MediaRecorder<br />
+            <input  type="radio" name="pregunta3" value="incorrecto"/>ExoPlayer<br />
+            <input  type="radio" name="pregunta3" value="correcto"/>MediaPlayer<br />
+            <input  type="radio" name="pregunta3" value="incorrecto"/> SurfaceView<br />
+
+            <li>¿Qué método de la clase MediaCodecInfo en Android devuelve true si el códec es puramente virtual y no usa hardware para la conversión?</li>
+            <input  type="radio" name="pregunta4" value="incorrecto"/> isHardwareAccelerated<br />
+            <input  type="radio" name="pregunta4" value="correcto"/>isSoftwareOnly<br />
+            <input  type="radio" name="pregunta4" value="incorrecto"/>isVendor<br />
+            <input  type="radio" name="pregunta4" value="incorrecto"/>isCodecVirtual<br />
+
+            <li>¿Cuáles de los siguientes conceptos son fundamentales en la gestión de datos basados en el tiempo en aplicaciones multimedia?</li>
+            <input  type="radio" name="pregunta5" value="correcto"/> Continuidad temporal<br />
+            <input  type="radio" name="pregunta5" value="correcto"/>Marcas de tiempo (timestamps)<br />
+            <input  type="radio" name="pregunta5" value="incorrecto"/>Compilación JIT<br />
+            <input  type="radio" name="pregunta5" value="correcto"/>Intervalos de tiempo<br />
+
+            <li>¿Cuáles de las siguientes características son funciones principales de un motor devideojuegos?</li>
+            <input  type="radio" name="pregunta6" value="correcto"/>Motor de renderizado para gráficos 2D y 3D<br />
+            <input  type="radio" name="pregunta6" value="correcto"/>Gestión de memoria<br />
+            <input  type="radio" name="pregunta6" value="incorrecto"/> Creación automática de historias y diálogos<br />
+            <input  type="radio" name="pregunta6" value="correcto"/>Inteligencia artificial<br />
+
+            <li>¿Cuáles de los siguientes lenguajes de programación son comúnmente utilizados en eldesarrollo de videojuegos?</li>
+            <input  type="radio" name="pregunta7" value="incorrecto"/>Python<br />
+            <input  type="radio" name="pregunta7" value="correcto"/>C++<br />
+            <input  type="radio" name="pregunta7" value="correcto"/>C#<br />
+            <input  type="radio" name="pregunta7" value="correcto"/>Java<br />
+
+            <li>¿Qué librería es ampliamente utilizada para el desarrollo de gráficos 3D en videojuegos?</li>
+            <input  type="radio" name="pregunta8" value="correcto"/>OpenGL<br />
+            <input  type="radio" name="pregunta8" value="correcto"/>Direct3D<br />
+            <input  type="radio" name="pregunta8" value="incorrecto"/>NumPy<br />
+            <input  type="radio" name="pregunta8" value="incorrecto"/>TensorFlow<br />
+
+            <li>¿Cuál es el método principal que se ejecuta continuamente en el ciclo de vida de un juego en libGDX?</li>
+            <input  type="radio" name="pregunta9" value="incorrecto"/> create()<br />
+            <input  type="radio" name="pregunta9" value="incorrecto"/>initialize()<br />
+            <input  type="radio" name="pregunta9" value="incorrecto"/>show()<br />
+            <input  type="radio" name="pregunta9" value="incorrecto"/>run()
+            <br />
+
+            <li>¿Qué clase en libGDX se usa para dibujar gráficos en pantalla, incluyendo sprites y texto?</li>
+            <input  type="radio" name="pregunta10" value="incorrecto"/>SpriteBatch<br />
+            <input  type="radio" name="pregunta10" value="incorrecto"/>Stage<br />
+            <input  type="radio" name="pregunta10" value="correcto"/>Camera<br />
+            <input  type="radio" name="pregunta10" value="incorrecto"/>TextureAtlas<br />
+ 
+            </ol>
+
+            <ol class="desarrollo">
+
+                <li>Describe el Protocolo de transmisión en tiempo real RTP. (1 P)</li>
+                <textarea class="respDes" id="respDes1"></textarea>
+
+                <li>Implementa una clase en Android que reproduzca un archivo de audio almacenado en la carpeta res/raw usando MediaPlayer. Debes cumplir con los siguientes requisitos (1,5P): Iniciar la reproducción cuando el usuario presione un botón, Pausar la reproducción con otro botón, Detener la reproducción)</li>
+                <textarea class="respDes" id="respDes2"></textarea>
+
+                <li>Realiza el código del render en el que si un jugador toca un rectangle se realiza una colisión y este debe moverse a la posición (0,0). (1,5 P)</li>
+                <textarea class="respDes" id="respDes3"></textarea>
+
+                <li>Teniendo un TextureAtlas en el que se encuentra big_mario realiza una animación para la textura MarioPlayerTexture. (1,5 P)</li>
+                <textarea class="respDes" id="respDes4"></textarea>
+            
+            
+            </ol>
+
+
+        </form>
+
+    </div>
+
+</body>
+</html>

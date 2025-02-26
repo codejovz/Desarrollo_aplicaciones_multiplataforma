@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+
+        @supports(backdrop-filter: blur(5px)){
+            #desmarcar{
+                background-color: rgba(255, 255, 255, 0);
+                backdrop-filter: blur(5px);
+            }
+        }
+
+
+        @supports not (backdrop-filter:blur(5px)){
+            #desmarcar{
+                background-color: rgba(255, 255, 255, 0.9);
+            }
+        }
+
+       @media screen {
+
+            div{
+                padding-inline: 2%;
+                padding-top: 40px;
+            }
+
+        }
+
+        @media screen and (min-width: 760px) {
+
+            div{
+                padding-inline: 20%;
+            }
+        }
+
+        @media screen and (min-width: 1100px) {
+
+            div{
+                padding-inline: 30%;
+            }
+
+        }
+
+        li{
+            margin-top: 10px;
+        }
+
+        #desmarcar{
+            position: fixed;
+            left: 20px;
+            top: -40px;
+            width: 100%;
+            border: 2px solid white;
+            border-radius: 16px;
+        }
+
+        .respDes{
+            width: 100%;
+            padding-inline: 0;
+            
+        }
+
+        div pre code{
+            padding-inline: 0;
+        }
+
+
+        pre, code{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow-y: visible;
+        }
+
+    </style>
+    <title>Examen PMDM hecho</title>
+
+    
+</head>
+<body>
+
+    <div>
+        <div id="desmarcar"><p><a href="index.html">Desmarcar</a></p></div>
+
+        <form action="mailto:nadie@nada.es" method="post" enctype="text/plain">
+
+            <ol>
+
+                <li>¿Cuál de las siguientes capas de la API multimedia de Android es utilizada directamente por los desarrolladores para interactuar con las funciones multimedia?</li>
+            <input  type="checkbox" name="pregunta1" value="incorrecto"/>Capa de Hardware Abstraction Layer (HAL)<br />
+            <input  type="checkbox" name="pregunta1" value="incorrecto"/> Capa Nativa (Native Layer)<br />
+            <input  type="checkbox" name="pregunta1" value="incorrecto"/>Capa del Kernel de Android<br />
+            <input  type="checkbox" name="pregunta1" value="correcto" checked/>Capa de Aplicación<br />
+
+            <li>¿Cuál de los siguientes componentes de la API multimedia de Android se utiliza para gestionar el foco de audio y redireccionar el sonido entre diferentes dispositivos?</li>
+            <input  type="checkbox" name="pregunta2" value="incorrecto"/>MediaRecorder<br />
+            <input  type="checkbox" name="pregunta2" value="correcto" checked/>AudioManager<br />
+            <input  type="checkbox" name="pregunta2" value="incorrecto"/> MediaCodec<br />
+            <input  type="checkbox" name="pregunta2" value="incorrecto"/>SurfaceView<br />
+
+            <li>¿Qué componente de Android permite la reproducción de audio y video desde diversas fuentes, como almacenamiento local y streaming en red?</li>
+            <input  type="checkbox" name="pregunta3" value="incorrecto"/>MediaRecorder<br />
+            <input  type="checkbox" name="pregunta3" value="incorrecto"/>ExoPlayer<br />
+            <input  type="checkbox" name="pregunta3" value="correcto" checked/>MediaPlayer<br />
+            <input  type="checkbox" name="pregunta3" value="incorrecto"/> SurfaceView<br />
+
+            <li>¿Qué método de la clase MediaCodecInfo en Android devuelve true si el códec es puramente virtual y no usa hardware para la conversión?</li>
+            <input  type="checkbox" name="pregunta4" value="incorrecto"/> isHardwareAccelerated<br />
+            <input  type="checkbox" name="pregunta4" value="correcto" checked/>isSoftwareOnly<br />
+            <input  type="checkbox" name="pregunta4" value="incorrecto"/>isVendor<br />
+            <input  type="checkbox" name="pregunta4" value="incorrecto"/>isCodecVirtual<br />
+
+            <li>¿Cuáles de los siguientes conceptos son fundamentales en la gestión de datos basados en el tiempo en aplicaciones multimedia?</li>
+            <input  type="checkbox" name="pregunta5" value="correcto" checked/> Continuidad temporal<br />
+            <input  type="checkbox" name="pregunta5" value="correcto" checked/>Marcas de tiempo (timestamps)<br />
+            <input  type="checkbox" name="pregunta5" value="incorrecto"/>Compilación JIT<br />
+            <input  type="checkbox" name="pregunta5" value="correcto" checked/>Intervalos de tiempo<br />
+
+            <li>¿Cuáles de las siguientes características son funciones principales de un motor devideojuegos?</li>
+            <input  type="checkbox" name="pregunta6" value="correcto" checked/>Motor de renderizado para gráficos 2D y 3D<br />
+            <input  type="checkbox" name="pregunta6" value="correcto" checked/>Gestión de memoria<br />
+            <input  type="checkbox" name="pregunta6" value="incorrecto"/> Creación automática de historias y diálogos<br />
+            <input  type="checkbox" name="pregunta6" value="correcto" checked/>Inteligencia artificial<br />
+
+            <li>¿Cuáles de los siguientes lenguajes de programación son comúnmente utilizados en eldesarrollo de videojuegos?</li>
+            <input  type="checkbox" name="pregunta7" value="incorrecto"/>Python<br />
+            <input  type="checkbox" name="pregunta7" value="correcto" checked/>C++<br />
+            <input  type="checkbox" name="pregunta7" value="correcto" checked/>C#<br />
+            <input  type="checkbox" name="pregunta7" value="correcto" checked/>Java<br />
+
+            <li>¿Qué librería es ampliamente utilizada para el desarrollo de gráficos 3D en videojuegos?</li>
+            <input  type="checkbox" name="pregunta8" value="correcto" checked/>OpenGL<br />
+            <input  type="checkbox" name="pregunta8" value="correcto" checked/>Direct3D<br />
+            <input  type="checkbox" name="pregunta8" value="incorrecto"/>NumPy<br />
+            <input  type="checkbox" name="pregunta8" value="incorrecto"/>TensorFlow<br />
+
+            <li>¿Cuál es el método principal que se ejecuta continuamente en el ciclo de vida de un juego en libGDX?</li>
+            <input  type="checkbox" name="pregunta9" value="incorrecto"/> create()<br />
+            <input  type="checkbox" name="pregunta9" value="incorrecto"/>initialize()<br />
+            <input  type="checkbox" name="pregunta9" value="incorrecto"/>show()<br />
+            <input  type="checkbox" name="pregunta9" value="incorrecto"/>run()
+            <br />
+
+            <li>¿Qué clase en libGDX se usa para dibujar gráficos en pantalla, incluyendo sprites y texto?</li>
+            <input  type="checkbox" name="pregunta10" value="incorrecto"/>SpriteBatch<br />
+            <input  type="checkbox" name="pregunta10" value="incorrecto"/>Stage<br />
+            <input  type="checkbox" name="pregunta10" value="correcto" checked/>Camera<br />
+            <input  type="checkbox" name="pregunta10" value="incorrecto"/>TextureAtlas<br />
+                
+            </ol>
+
+
+            <ol class="desarrollo">
+
+                <li>Describe el Protocolo de transmisión en tiempo real RTP. (1 P)</li>
+                
+
+                <li>Implementa una clase en Android que reproduzca un archivo de audio almacenado en la carpeta res/raw usando MediaPlayer. Debes cumplir con los siguientes requisitos (1,5P): Iniciar la reproducción cuando el usuario presione un botón, Pausar la reproducción con otro botón, Detener la reproducción)</li>
+                <div class="respDes" id="respDes4"><pre><code class="language-kotlin">
+val tvAudioState:TextView = findViewById(R.id.tvAudioState)
+
+
+val audioUrl:String = "https://www.learningcontainer.com/wp-content/uploads/2020/02/Sample-OGG-File.ogg"
+val audioUri:Uri = Uri.parse(uri)
+
+val mediaPlayer: MediaPlayer = MediaPlayer.create(this, audioUri)
+
+val btnAudioPlay:Button = findViewById(R.id.btnAudioPlay)
+btnAudioPlay.setOnClickListener{
+
+    tvAudioState.text="Playing"
+
+        if(!(mediaPlayer.isPlaying())){
+            mediaPlayer.start()
+        }
+
+}
+
+
+val btnAudioStop:Button = findViewById(R.id.btnAudioStop)
+btnAudioStop.setOnClickListener{
+    tvAudioState.text="Stopped"
+
+    if(mediaPlayer.isPlaying()){
+            mediaPlayer.stop()
+                mediaPlayer.prepare()
+        }
+
+}
+
+
+audioManager =getSystemService(AUDIO_SERVICE) as AudioManager
+
+val btnSilence:Button = findViewById(R.id.btnSilence)
+btnSilence.setOnClickListener{
+
+    audioManager.adjustVolume(AudioManager.ADJUST_MUTE, AudioManager.FLAG_SHOW_UI)
+
+}
+
+
+val btnIncrease:Button = findViewById(R.id.btnIncrease)
+btnIncrease.setOnClickListener{
+
+    audioManager.adjustVolume(AudioManager.ADJUST_RAISE, AudioManager.FLAG_SHOW_UI)
+
+}
+
+val btnDecrease:Button = findViewById(R.id.btnDecrease)
+btnDecrease.setOnClickListener{
+
+    audioManager.adjustVolume(AudioManager.ADJUST_LOWER, AudioManager.FLAG_SHOW_UI)
+
+}
+                </code></pre></div>
+
+                <li>Realiza el código del render en el que si un jugador toca un rectangle se realiza una colisión y este debe moverse a la posición (0,0). (1,5 P)</li>
+                <div class="respDes" id="respDes4"><pre><code class="language-kotlin">
+
+                </code></pre></div>
+
+                <li>Teniendo un TextureAtlas en el que se encuentra big_mario realiza una animación para la textura MarioPlayerTexture. (1,5 P)</li>
+                <div class="respDes" id="respDes4"><pre><code class="language-kotlin">
+
+                </code></pre></div>
+            
+            
+            </ol>
+
+        </form>
+
+    </div>
+
+</body>
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-java.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-kotlin.min.js"></script>
+
+
+</html>
