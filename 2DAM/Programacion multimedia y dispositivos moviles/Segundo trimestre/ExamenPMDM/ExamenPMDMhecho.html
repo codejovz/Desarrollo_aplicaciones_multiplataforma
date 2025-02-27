@@ -218,16 +218,28 @@ btnDecrease.setOnClickListener{
                 <li>Realiza el código del render en el que si un jugador toca un rectangle se realiza una colisión y este debe moverse a la posición (0,0). (1,5 P)</li>
                 <div class="respDes" id="respDes4"><pre><code class="language-kotlin">
 
-private fun handleInput(delta: Float) {
-    val playerRectangle = Rectangle(playerX, playerY, marioPlayerTexture.getKeyFrame(stateTime).regionWidth * 4, marioPlayerTexture.getKeyFrame(stateTime).regionHeight * 4)
-                
-    if (playerRectangle.overlaps(collisionRectangle)) {
-        playerX = 0f
-        playerY = 0f
+var enemyArea = Rectangle(x, y, 16f, 16f)
+val marioBounds = Rectangle(x, y, 16f * 8, 16f * 8)
+var playerX:Float = 0f
+var playerY:Float = 0f
+fun checkisColisioned(player: Rectangle): Boolean {
+
+    if (enemyArea!!.overlaps(player)) {
+        return true
+    } else {
+        return false
     }
 }
-                    
 
+override fun render (delta: Float){
+
+    if (checkColisioned(marioBounds)) {
+
+        playerX = 0f
+        playerY = 0f
+
+    }
+}
                 </code></pre></div>
 
 
@@ -237,7 +249,7 @@ private fun handleInput(delta: Float) {
 private lateinit var marioPlayerTexture: Animation<TextureRegion>
 
 // Carga de la animación desde el TextureAtlas (en el método show o similar):
-textureAtlas = TextureAtlas(Gdx.files.internal("nombre_del_atlas.pack"))
+val textureAtlas = TextureAtlas(Gdx.files.internal("nombre_del_atlas.pack"))
 marioPlayerTexture = createAnimation("big_mario", 20, 3, 0.1f)
 
 
