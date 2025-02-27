@@ -146,9 +146,9 @@
             <br />
 
             <li>¿Qué clase en libGDX se usa para dibujar gráficos en pantalla, incluyendo sprites y texto?</li>
-            <input  type="checkbox" name="pregunta10" value="incorrecto"/>SpriteBatch<br />
+            <input  type="checkbox" name="pregunta10" value="correcto" checked/>SpriteBatch<br />
             <input  type="checkbox" name="pregunta10" value="incorrecto"/>Stage<br />
-            <input  type="checkbox" name="pregunta10" value="correcto" checked/>Camera<br />
+            <input  type="checkbox" name="pregunta10" value="incorrecto"/>Camera<br />
             <input  type="checkbox" name="pregunta10" value="incorrecto"/>TextureAtlas<br />
                 
             </ol>
@@ -156,10 +156,7 @@
 
             <ol class="desarrollo">
 
-                <li>Describe el Protocolo de transmisión en tiempo real RTP. (1 P)</li>
-                
-
-                <li>Implementa una clase en Android que reproduzca un archivo de audio almacenado en la carpeta res/raw usando MediaPlayer. Debes cumplir con los siguientes requisitos (1,5P): Iniciar la reproducción cuando el usuario presione un botón, Pausar la reproducción con otro botón, Detener la reproducción)</li>
+                <li>Implementa una clase en Android que reproduzca un archivo de audio almacenado en la carpeta res/raw usando MediaPlayer. Debes cumplir con los siguientes requisitos (1,5P): Iniciar la reproducción cuando el usuario presione un botón, Pausar la reproducción con otro botón, Detener la reproducción.</li>
                 <div class="respDes" id="respDes4"><pre><code class="language-kotlin">
 val tvAudioState:TextView = findViewById(R.id.tvAudioState)
 
@@ -221,11 +218,126 @@ btnDecrease.setOnClickListener{
                 <li>Realiza el código del render en el que si un jugador toca un rectangle se realiza una colisión y este debe moverse a la posición (0,0). (1,5 P)</li>
                 <div class="respDes" id="respDes4"><pre><code class="language-kotlin">
 
+private fun handleInput(delta: Float) {
+    val playerRectangle = Rectangle(playerX, playerY, marioPlayerTexture.getKeyFrame(stateTime).regionWidth * 4, marioPlayerTexture.getKeyFrame(stateTime).regionHeight * 4)
+                
+    if (playerRectangle.overlaps(collisionRectangle)) {
+        playerX = 0f
+        playerY = 0f
+    }
+}
+                    
+
                 </code></pre></div>
+
 
                 <li>Teniendo un TextureAtlas en el que se encuentra big_mario realiza una animación para la textura MarioPlayerTexture. (1,5 P)</li>
                 <div class="respDes" id="respDes4"><pre><code class="language-kotlin">
+// Declaración de la animación:
+private lateinit var marioPlayerTexture: Animation<TextureRegion>
 
+// Carga de la animación desde el TextureAtlas (en el método show o similar):
+textureAtlas = TextureAtlas(Gdx.files.internal("nombre_del_atlas.pack"))
+marioPlayerTexture = createAnimation("big_mario", 20, 3, 0.1f)
+
+
+private fun createAnimation(regionName: String, totalFrames: Int, numFrames: Int, frameDuration: Float): Animation<TextureRegion> {
+        val frames = Array<TextureRegion>()
+        val region = textureAtlas.findRegion(regionName)
+        val frameWidth = region.regionWidth / totalFrames
+        val frameHeight = region.regionHeight
+
+        for (i in 0 until numFrames) {
+            frames.add(TextureRegion(region, i * frameWidth, 0, frameWidth, frameHeight))
+        }
+
+        return Animation(frameDuration, frames, Animation.PlayMode.LOOP)
+    }
+
+// Dibujo del frame actual de la animación (en el método render):
+val currentFrame = marioPlayerTexture.getKeyFrame(stateTime, true)
+batch.draw(currentFrame, playerX, playerY)
+                </code></pre></div>
+
+                <li>Usa el teclado para que el jugador cambie de posición, con animación(2p)</li>
+                <div class="respDes" id="respDes4"><pre><code class="language-kotlin">
+private var x = 0f
+private var y = 0f
+private val speed = 100f
+private var delta = Gdx.graphics.deltaTime
+private var currentAnimation: Animation<TextureRegion>? = null
+
+private fun handleInput(delta: Float) {
+
+        val movementSpeed = speed * delta * 4
+
+    if (Gdx.input.isKeyPressed(Input.Keys.LEFT) || Gdx.input.isKeyPressed(Input.Keys.A)) {
+            x -= movementSpeed
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT) || Gdx.input.isKeyPressed(Input.Keys.D)) {
+            x += movementSpeed
+        }
+        if ((Gdx.input.isKeyPressed(Input.Keys.UP) || Gdx.input.isKeyPressed(Input.Keys.W)) && !isJumping) {
+            isJumping = true
+            velocityY = JUMP_VELOCITY
+        }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.DOWN) || Gdx.input.isKeyPressed(Input.Keys.S)) {
+            y -= movementSpeed
+        }
+
+}
+
+
+override fun render(delta:Float) {
+
+        currentAnimation = when {
+            Gdx.input.isKeyPressed(Input.Keys.LEFT) || Gdx.input.isKeyPressed(Input.Keys.A) -> leftAnimation
+            Gdx.input.isKeyPressed(Input.Keys.RIGHT) || Gdx.input.isKeyPressed(Input.Keys.D) -> rightAnimation
+            Gdx.input.isKeyPressed(Input.Keys.DOWN) || Gdx.input.isKeyPressed(Input.Keys.S) -> downAnimation
+            Gdx.input.isKeyPressed(Input.Keys.SPACE) || Gdx.input.isKeyPressed(Input.Keys.W) || Gdx.input.isKeyPressed(Input.Keys.UP) -> upAnimation
+            else -> idleAnimation
+        }
+
+
+
+}
+                </code></pre></div>
+
+
+                <li>Reproduce el salto</li>
+                <div class="respDes" id="respDes4"><pre><code class="language-kotlin">
+private var isJumping: Boolean = false
+private val gravity: Float = -500f
+private var velocityY: Float = 0f
+private val JUMP_VELOCITY: Float = 400f
+private val GROUND_Y: Float = 0f
+
+private fun handleInput(){
+    if ((Gdx.input.isKeyPressed(Input.Keys.UP) || Gdx.input.isKeyPressed(Input.Keys.W)) && !isJumping) {
+        isJumping = true
+        velocityY = JUMP_VELOCITY
+    }
+}
+
+
+private fun applyGravity(delta: Float) {
+    if (isJumping) {
+        velocityY += gravity * delta
+    }
+
+    y += velocityY * delta
+
+    if (y <= GROUND_Y) {
+        y = GROUND_Y
+        velocityY = 0f
+        isJumping = false
+    }
+}
+
+override fun render(delta :Float){
+    applyGravity(Gdx.graphics.deltaTime)
+}
                 </code></pre></div>
             
             
