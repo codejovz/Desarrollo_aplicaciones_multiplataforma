@@ -1,0 +1,12 @@
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\bin\Debug\Ejer32tabaqueras.exe.config
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\bin\Debug\Ejer32tabaqueras.exe
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\bin\Debug\Ejer32tabaqueras.pdb
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\bin\Debug\Ejer32tabaqueras.xml
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\obj\Debug\Ejer32tabaqueras.vbproj.AssemblyReference.cache
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\obj\Debug\Ejer32tabaqueras.Form1.resources
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\obj\Debug\Ejer32tabaqueras.Resources.resources
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\obj\Debug\Ejer32tabaqueras.vbproj.GenerateResource.cache
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\obj\Debug\Ejer32tabaqueras.vbproj.CoreCompileInputs.cache
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\obj\Debug\Ejer32tabaqueras.exe
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\obj\Debug\Ejer32tabaqueras.xml
+C:\Users\jotaa\source\repos\Ejer32tabaqueras\Ejer32tabaqueras\obj\Debug\Ejer32tabaqueras.pdb

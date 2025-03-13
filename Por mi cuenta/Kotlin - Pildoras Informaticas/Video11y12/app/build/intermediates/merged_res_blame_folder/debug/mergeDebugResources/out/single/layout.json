@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.video10.app-mergeDebugResources-47:/layout/activity_main.xml",
+        "source": "com.example.video10.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.video10.app-mergeDebugResources-47:/layout/fragment_first.xml",
+        "source": "com.example.video10.app-main-50:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "com.example.video10.app-mergeDebugResources-47:/layout/fragment_second.xml",
+        "source": "com.example.video10.app-main-50:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "com.example.video10.app-mergeDebugResources-47:/layout/content_main.xml",
+        "source": "com.example.video10.app-main-50:/layout/content_main.xml"
+    }
+]

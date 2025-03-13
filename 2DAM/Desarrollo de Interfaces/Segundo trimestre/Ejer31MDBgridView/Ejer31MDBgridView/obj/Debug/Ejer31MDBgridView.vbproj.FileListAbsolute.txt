@@ -1,0 +1,12 @@
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\bin\Debug\Ejer31MDBgridView.exe.config
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\bin\Debug\Ejer31MDBgridView.exe
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\bin\Debug\Ejer31MDBgridView.pdb
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\bin\Debug\Ejer31MDBgridView.xml
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\obj\Debug\Ejer31MDBgridView.vbproj.AssemblyReference.cache
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\obj\Debug\Ejer31MDBgridView.Form1.resources
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\obj\Debug\Ejer31MDBgridView.Resources.resources
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\obj\Debug\Ejer31MDBgridView.vbproj.GenerateResource.cache
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\obj\Debug\Ejer31MDBgridView.vbproj.CoreCompileInputs.cache
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\obj\Debug\Ejer31MDBgridView.exe
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\obj\Debug\Ejer31MDBgridView.xml
+C:\Users\jotaa\source\repos\Ejer31MDBgridView\Ejer31MDBgridView\obj\Debug\Ejer31MDBgridView.pdb

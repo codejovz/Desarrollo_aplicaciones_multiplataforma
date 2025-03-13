@@ -1,0 +1,51 @@
+com.example.video10.app-emoji2-1.3.0-0 C:\Users\jotaa\.gradle\caches\8.9\transforms\04b7a1646ad051584d6b2304aedb4377\transformed\emoji2-1.3.0\res
+com.example.video10.app-core-runtime-2.2.0-1 C:\Users\jotaa\.gradle\caches\8.9\transforms\05a9ea4cd82538904db41301ef9a31c7\transformed\core-runtime-2.2.0\res
+com.example.video10.app-navigation-ui-2.6.0-2 C:\Users\jotaa\.gradle\caches\8.9\transforms\0d5e3a8b50370e2d3a758c564ba80247\transformed\navigation-ui-2.6.0\res
+com.example.video10.app-profileinstaller-1.4.0-3 C:\Users\jotaa\.gradle\caches\8.9\transforms\0fc754445d3c727d1d5c929f2fdc6653\transformed\profileinstaller-1.4.0\res
+com.example.video10.app-lifecycle-livedata-core-2.6.2-4 C:\Users\jotaa\.gradle\caches\8.9\transforms\11e48a2b26f091fb4e58f1b8aa872f98\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.video10.app-lifecycle-runtime-2.6.2-5 C:\Users\jotaa\.gradle\caches\8.9\transforms\1c808e492f19c040c299cc1507ceb0ca\transformed\lifecycle-runtime-2.6.2\res
+com.example.video10.app-material-1.12.0-6 C:\Users\jotaa\.gradle\caches\8.9\transforms\2421bd5aac1412443a78d1dcc6b6aeea\transformed\material-1.12.0\res
+com.example.video10.app-appcompat-resources-1.7.0-7 C:\Users\jotaa\.gradle\caches\8.9\transforms\2ee517dd5b5cde7c8f94f165d16a9981\transformed\appcompat-resources-1.7.0\res
+com.example.video10.app-lifecycle-livedata-core-ktx-2.6.2-8 C:\Users\jotaa\.gradle\caches\8.9\transforms\40106abba39dfeff35b76da3acaeba00\transformed\lifecycle-livedata-core-ktx-2.6.2\res
+com.example.video10.app-coordinatorlayout-1.1.0-9 C:\Users\jotaa\.gradle\caches\8.9\transforms\40647f43f0c56a4bfd3d7dc65fca4b62\transformed\coordinatorlayout-1.1.0\res
+com.example.video10.app-core-ktx-1.15.0-10 C:\Users\jotaa\.gradle\caches\8.9\transforms\4e53da07b4d2c76deb20556b44224d2b\transformed\core-ktx-1.15.0\res
+com.example.video10.app-appcompat-1.7.0-11 C:\Users\jotaa\.gradle\caches\8.9\transforms\4f137d08ca7c1afafab620040214ab3b\transformed\appcompat-1.7.0\res
+com.example.video10.app-navigation-common-ktx-2.6.0-12 C:\Users\jotaa\.gradle\caches\8.9\transforms\57bda340ed6bb3659959fa68f3c70e57\transformed\navigation-common-ktx-2.6.0\res
+com.example.video10.app-navigation-runtime-ktx-2.6.0-13 C:\Users\jotaa\.gradle\caches\8.9\transforms\591307b9c46d262b05898bb43fdd072f\transformed\navigation-runtime-ktx-2.6.0\res
+com.example.video10.app-annotation-experimental-1.4.1-14 C:\Users\jotaa\.gradle\caches\8.9\transforms\650819939d26a95b91d312ed005964f0\transformed\annotation-experimental-1.4.1\res
+com.example.video10.app-savedstate-ktx-1.2.1-15 C:\Users\jotaa\.gradle\caches\8.9\transforms\658c08ca32afbe6d7c3d7682f96670fb\transformed\savedstate-ktx-1.2.1\res
+com.example.video10.app-fragment-1.6.0-16 C:\Users\jotaa\.gradle\caches\8.9\transforms\68946b7ee1d7a9b22627226b49df01ca\transformed\fragment-1.6.0\res
+com.example.video10.app-emoji2-views-helper-1.3.0-17 C:\Users\jotaa\.gradle\caches\8.9\transforms\6a8023c44b5fad7d9001fdc00a97d32d\transformed\emoji2-views-helper-1.3.0\res
+com.example.video10.app-window-1.0.0-18 C:\Users\jotaa\.gradle\caches\8.9\transforms\6da5c49aff23405a9e33b60dcf92ce08\transformed\window-1.0.0\res
+com.example.video10.app-lifecycle-viewmodel-2.6.2-19 C:\Users\jotaa\.gradle\caches\8.9\transforms\6e18225625740d7d95cd50e49bc3a3f3\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.video10.app-lifecycle-livedata-2.6.2-20 C:\Users\jotaa\.gradle\caches\8.9\transforms\6e6b2623cb11aaae6ce496f77cd64344\transformed\lifecycle-livedata-2.6.2\res
+com.example.video10.app-tracing-1.2.0-21 C:\Users\jotaa\.gradle\caches\8.9\transforms\7223a5dc8ca94c8d57c2a7a1a7727c37\transformed\tracing-1.2.0\res
+com.example.video10.app-lifecycle-viewmodel-ktx-2.6.2-22 C:\Users\jotaa\.gradle\caches\8.9\transforms\808d5817c89f0c862655768555abb274\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+com.example.video10.app-fragment-ktx-1.6.0-23 C:\Users\jotaa\.gradle\caches\8.9\transforms\886ca48b909b401276d759307f66dd0c\transformed\fragment-ktx-1.6.0\res
+com.example.video10.app-activity-1.8.0-24 C:\Users\jotaa\.gradle\caches\8.9\transforms\93c377ec156489d9120d664b5a547c1c\transformed\activity-1.8.0\res
+com.example.video10.app-slidingpanelayout-1.2.0-25 C:\Users\jotaa\.gradle\caches\8.9\transforms\946e6c828df71ad30cb0a75ef2907a9e\transformed\slidingpanelayout-1.2.0\res
+com.example.video10.app-drawerlayout-1.1.1-26 C:\Users\jotaa\.gradle\caches\8.9\transforms\9534bddfb897b8ba33b99df214c89c03\transformed\drawerlayout-1.1.1\res
+com.example.video10.app-navigation-common-2.6.0-27 C:\Users\jotaa\.gradle\caches\8.9\transforms\a3cd5c6c70b84a5fecc362ca231c9b02\transformed\navigation-common-2.6.0\res
+com.example.video10.app-transition-1.5.0-28 C:\Users\jotaa\.gradle\caches\8.9\transforms\a84acb49db4c797538e42f1b901d67d3\transformed\transition-1.5.0\res
+com.example.video10.app-constraintlayout-2.2.0-29 C:\Users\jotaa\.gradle\caches\8.9\transforms\b3050ed6511d1be6c8fc604eb4c64b37\transformed\constraintlayout-2.2.0\res
+com.example.video10.app-lifecycle-viewmodel-savedstate-2.6.2-30 C:\Users\jotaa\.gradle\caches\8.9\transforms\b7c8f082f0e088bb242beb3e76eb2164\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.video10.app-core-1.15.0-31 C:\Users\jotaa\.gradle\caches\8.9\transforms\b9fe807822783e0a331d125ab679f30e\transformed\core-1.15.0\res
+com.example.video10.app-savedstate-1.2.1-32 C:\Users\jotaa\.gradle\caches\8.9\transforms\bda97008cff8c6772c73e1e540b53b7b\transformed\savedstate-1.2.1\res
+com.example.video10.app-viewpager2-1.0.0-33 C:\Users\jotaa\.gradle\caches\8.9\transforms\d62ab5cfd3d5d9cefe27d9259657ae0c\transformed\viewpager2-1.0.0\res
+com.example.video10.app-navigation-fragment-ktx-2.6.0-34 C:\Users\jotaa\.gradle\caches\8.9\transforms\d6a19ae321edf66604f8be7ca3bf71c1\transformed\navigation-fragment-ktx-2.6.0\res
+com.example.video10.app-startup-runtime-1.1.1-35 C:\Users\jotaa\.gradle\caches\8.9\transforms\dd4a538d584675bdc8a9f19e1ecb9955\transformed\startup-runtime-1.1.1\res
+com.example.video10.app-activity-ktx-1.8.0-36 C:\Users\jotaa\.gradle\caches\8.9\transforms\e3966ab3c7f2771bee3c6e212e1e4bb7\transformed\activity-ktx-1.8.0\res
+com.example.video10.app-navigation-ui-ktx-2.6.0-37 C:\Users\jotaa\.gradle\caches\8.9\transforms\e425a2d2c6af49958a34dc03551d538e\transformed\navigation-ui-ktx-2.6.0\res
+com.example.video10.app-lifecycle-runtime-ktx-2.6.2-38 C:\Users\jotaa\.gradle\caches\8.9\transforms\e857e52f96a0f3242eb6e4b408af0efa\transformed\lifecycle-runtime-ktx-2.6.2\res
+com.example.video10.app-navigation-fragment-2.6.0-39 C:\Users\jotaa\.gradle\caches\8.9\transforms\ee299c062affdb479b9ae541f0c513c8\transformed\navigation-fragment-2.6.0\res
+com.example.video10.app-lifecycle-process-2.6.2-40 C:\Users\jotaa\.gradle\caches\8.9\transforms\ef28b3f6a0bc472a9a6b60ba4f92d7c9\transformed\lifecycle-process-2.6.2\res
+com.example.video10.app-navigation-runtime-2.6.0-41 C:\Users\jotaa\.gradle\caches\8.9\transforms\ef33a7ae072174d640cc45fd5e5bded2\transformed\navigation-runtime-2.6.0\res
+com.example.video10.app-recyclerview-1.1.0-42 C:\Users\jotaa\.gradle\caches\8.9\transforms\f018d39f8cb4348adfb9ecaf0d572e1f\transformed\recyclerview-1.1.0\res
+com.example.video10.app-cardview-1.0.0-43 C:\Users\jotaa\.gradle\caches\8.9\transforms\f057eb9998e28f9bd8736a534c841da0\transformed\cardview-1.0.0\res
+com.example.video10.app-pngs-44 C:\Users\jotaa\Desktop\Desarrollo_aplicaciones_multiplataforma\Por mi cuenta\Kotlin - Pildoras Informaticas\Video11y12\app\build\generated\res\pngs\debug
+com.example.video10.app-resValues-45 C:\Users\jotaa\Desktop\Desarrollo_aplicaciones_multiplataforma\Por mi cuenta\Kotlin - Pildoras Informaticas\Video11y12\app\build\generated\res\resValues\debug
+com.example.video10.app-packageDebugResources-46 C:\Users\jotaa\Desktop\Desarrollo_aplicaciones_multiplataforma\Por mi cuenta\Kotlin - Pildoras Informaticas\Video11y12\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.video10.app-packageDebugResources-47 C:\Users\jotaa\Desktop\Desarrollo_aplicaciones_multiplataforma\Por mi cuenta\Kotlin - Pildoras Informaticas\Video11y12\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.video10.app-debug-48 C:\Users\jotaa\Desktop\Desarrollo_aplicaciones_multiplataforma\Por mi cuenta\Kotlin - Pildoras Informaticas\Video11y12\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.video10.app-debug-49 C:\Users\jotaa\Desktop\Desarrollo_aplicaciones_multiplataforma\Por mi cuenta\Kotlin - Pildoras Informaticas\Video11y12\app\src\debug\res
+com.example.video10.app-main-50 C:\Users\jotaa\Desktop\Desarrollo_aplicaciones_multiplataforma\Por mi cuenta\Kotlin - Pildoras Informaticas\Video11y12\app\src\main\res

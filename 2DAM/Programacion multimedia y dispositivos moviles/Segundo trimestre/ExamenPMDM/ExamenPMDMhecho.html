@@ -251,7 +251,7 @@ private lateinit var marioPlayerTexture: Animation<TextureRegion>
 // Carga de la animación desde el TextureAtlas (en el método show o similar):
 val textureAtlas = TextureAtlas(Gdx.files.internal("nombre_del_atlas.pack"))
 marioPlayerTexture = createAnimation("big_mario", 20, 3, 0.1f)
-
+var stateTime = 0f
 
 private fun createAnimation(regionName: String, totalFrames: Int, numFrames: Int, frameDuration: Float): Animation<TextureRegion> {
         val frames = Array<TextureRegion>()

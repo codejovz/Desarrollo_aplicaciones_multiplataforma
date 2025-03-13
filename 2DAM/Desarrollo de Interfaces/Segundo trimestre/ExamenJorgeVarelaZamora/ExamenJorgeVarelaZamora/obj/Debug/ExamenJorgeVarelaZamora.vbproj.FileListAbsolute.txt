@@ -1,0 +1,12 @@
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\bin\Debug\ExamenJorgeVarelaZ.exe.config
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\bin\Debug\ExamenJorgeVarelaZ.exe
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\bin\Debug\ExamenJorgeVarelaZ.pdb
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\bin\Debug\ExamenJorgeVarelaZ.xml
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\obj\Debug\ExamenJorgeVarelaZamora.vbproj.AssemblyReference.cache
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\obj\Debug\ExamenJorgeVarelaZ.Form1.resources
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\obj\Debug\ExamenJorgeVarelaZ.Resources.resources
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\obj\Debug\ExamenJorgeVarelaZamora.vbproj.GenerateResource.cache
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\obj\Debug\ExamenJorgeVarelaZamora.vbproj.CoreCompileInputs.cache
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\obj\Debug\ExamenJorgeVarelaZ.exe
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\obj\Debug\ExamenJorgeVarelaZ.xml
+C:\Users\jotaa\source\repos\ExamenJorgeVarelaZamora\ExamenJorgeVarelaZamora\obj\Debug\ExamenJorgeVarelaZ.pdb

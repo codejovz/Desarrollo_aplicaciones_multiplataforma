@@ -1,0 +1,14 @@
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\bin\Debug\Ejer29MDB.exe.config
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\bin\Debug\Ejer29MDB.exe
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\bin\Debug\Ejer29MDB.pdb
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\bin\Debug\Ejer29MDB.xml
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\obj\Debug\Ejer29MDB.vbproj.AssemblyReference.cache
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\obj\Debug\Ejer29MDB.Form1.resources
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\obj\Debug\Ejer29MDB.Resources.resources
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\obj\Debug\Ejer29MDB.vbproj.GenerateResource.cache
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\obj\Debug\Ejer29MDB.vbproj.CoreCompileInputs.cache
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\obj\Debug\Ejer29MDB.exe
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\obj\Debug\Ejer29MDB.xml
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\obj\Debug\Ejer29MDB.pdb
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\obj\Debug\Ejer29MDB.gestion.resources
+C:\Users\jotaa\source\repos\Ejer29MDB\Ejer29MDB\obj\Debug\Ejer29MDB.Menu_principal.resources

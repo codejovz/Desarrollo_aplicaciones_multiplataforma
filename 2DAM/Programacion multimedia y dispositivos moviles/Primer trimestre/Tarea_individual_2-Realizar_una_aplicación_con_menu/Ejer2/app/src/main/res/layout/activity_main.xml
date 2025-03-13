@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonActivity1"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Actividad 1"
+        app:layout_constraintTop_toTopOf="@+id/main"  app:layout_constraintBottom_toTopOf="@+id/buttonActivity2"  />
+
+    <Button
+        android:id="@+id/buttonActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Actividad 2"
+        app:layout_constraintTop_toBottomOf="@+id/buttonActivity1"  app:layout_constraintBottom_toTopOf="@+id/buttonActivity3"  />
+
+    <Button
+        android:id="@+id/buttonActivity3"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Actividad 3"
+        app:layout_constraintTop_toBottomOf="@+id/buttonActivity2"  app:layout_constraintBottom_toTopOf="@+id/buttonActivity4"  />
+
+    <Button
+        android:id="@+id/buttonActivity4"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Actividad 4"
+        app:layout_constraintTop_toBottomOf="@+id/buttonActivity3"  app:layout_constraintBottom_toBottomOf="@+id/buttonActivity5"  />
+
+    <Button
+        android:id="@+id/buttonActivity5"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Actividad 5 vacia"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        app:layout_constraintTop_toBottomOf="@+id/buttonActivity4"  app:layout_constraintBottom_toBottomOf="@+id/main"  />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
