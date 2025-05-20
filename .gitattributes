@@ -1,0 +1,3 @@
+# Forzar que los archivos .sql sean detectados como SQL. Por defecto, Github no muestra en estadisticas de lenguages los scripts de SQL.
+*.sql linguist-language=SQL
+*.sql linguist-detectable=true
