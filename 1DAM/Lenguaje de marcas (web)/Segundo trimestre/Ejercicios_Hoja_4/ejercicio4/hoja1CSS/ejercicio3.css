@@ -1,0 +1,67 @@
+
+#fondotot{
+    background-color: lightgreen;
+    padding-bottom: 20px;
+  }
+
+  #primero{
+    position: relative;
+    width: 540px;
+    background-color: white;
+    left: 10px;
+    padding-block: 10px;
+    
+  }
+
+  #segundo{
+    position: relative;
+    width: 560px;
+    left: 10px;
+    padding-block: 10px;
+
+  }
+
+  #tercero{
+    position: relative;
+    left: 10px;
+    width: 580px;
+    padding-block: 10px;
+
+  }
+
+  #cuarto{
+    position: relative;
+    left: 10px;
+    width: 600px;
+    padding-block: 10px;
+
+  }
+
+
+
+
+
+  .blanco{
+    background-color: white;
+  }
+
+  .verde{
+    background-color: lightgreen;
+  }
+
+  .azul{
+    background-color: lightblue;
+  }
+
+  td{
+    padding-inline: 26px;
+    border: 3px dotted red;
+    font-size: 100%;
+  }
+
+  table{
+    border: 3px solid white;
+    border-collapse: collapse;
+    
+   
+  }

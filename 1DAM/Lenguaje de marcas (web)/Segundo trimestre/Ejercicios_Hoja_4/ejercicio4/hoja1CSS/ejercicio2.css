@@ -1,0 +1,33 @@
+
+#a2{
+    color: red;
+  }
+
+  #a3{
+    text-decoration:none;
+  }
+
+  #a4{
+    color: lightgreen;
+  }
+
+  #a5{
+    font-size: 150%;
+    font-weight: 700;
+
+  }
+
+  #a6{
+    background-color: black;
+    color: pink;
+    padding-right: 60px;
+    
+
+
+  }
+
+  #a7{
+    text-decoration:underline overline;
+    
+
+  }

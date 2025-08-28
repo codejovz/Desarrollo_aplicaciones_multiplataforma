@@ -1,0 +1,32 @@
+/* Todos los elementos de la pagina */ 
+*{
+    font: 1/1.3em Arial, Helvetica, sans-serif
+  }
+  /* Todos los párrafos contenidos en #primero */ 
+  #primero p{
+    color: #336699; 
+
+  }
+  /* Los elementos "em" contenidos en #primero */
+  #primero em{
+    background: #FFFFCC; padding: .1em; 
+  }
+
+  /* Todos los enlaces de la pagina */ 
+  a{
+    color: #CC3300; 
+  }
+  /* Todos los parrafos de la pagina */ 
+  p{
+    color: #555; 
+  }
+
+  /* Todos los elementos "em" de clase "especial" en toda la pagina */
+  em.especial {
+    background: #FFCC99; border: 1px solid #FF9900; padding: .1em; 
+  }
+  /* Elementos "span" contenidos en .normal */ 
+  .normal span{
+    font-weight: bold;
+  }
+

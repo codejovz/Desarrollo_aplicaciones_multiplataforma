@@ -1,0 +1,10 @@
+<!ELEMENT facturas(factura*)>
+<!ELEMENT factura (num_fac, cod_cliente, articulo+)>
+<!ELEMENT articulo(cod_articulo,nom_articulo,cantidad,precio)>
+<!ELEMENT num_fac(#PCDATA)>
+<!ELEMENT cod_cliente(#PCDATA)>
+<!ELEMENT cod_articulo(#PCDATA)>
+<!ELEMENT nom_articulo(#PCDATA)>
+<!ELEMENT cantidad(#PCDATA)>
+<!ELEMENT precio(#PCDATA)>
+<!ATTLIST factura facturaID CDATA #REQUIRED>

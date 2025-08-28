@@ -1,0 +1,15 @@
+﻿<!--
+Colores
+dtd_03.xml
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colores [
+  <!ELEMENT colores (#PCDATA|color)*>  
+  <!ELEMENT color (#PCDATA)>
+]>
+
+<colores>
+  <color>azul marino</color>
+  <color>negro</color>
+  <color>amarillo</color>
+</colores>

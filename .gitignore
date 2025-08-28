@@ -1,0 +1,172 @@
+# Entorno java ------------------------------------------------------
+
+# Ignorar archivos compilados
+*.class
+
+# Ignorar directorios de compilación
+/build/
+/out/
+
+# Ignorar archivos de configuración del IDE
+/.idea/
+/*.iml
+
+# Ignorar archivos de sistema
+.DS_Store
+
+# Ignorar logs y archivos temporales
+*.log
+*.tmp
+
+# Ignorar dependencias descargadas por Maven o Gradle
+/.mvn/
+/target/
+/.gradle/
+
+# Entorno .Net ------------------------------------------------------
+
+# Archivos de configuración y temporales de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Directorios de salida de compilación
+bin/
+obj/
+
+# Archivos generados por el sistema
+*.log
+*.tlog
+
+# Archivos de configuración del IDE
+.vs/
+*.csproj.user
+
+# Archivos de paquetes y dependencias
+packages/
+*.nupkg
+*.nuspec
+
+# Archivos de publicación y despliegue
+publish/
+*.publishsettings
+
+# Otros archivos innecesarios
+_ReSharper*/
+
+# Android Studio específico
+*.iml
+.gradle
+.gradle/
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+
+# Archivos generados por el compilador de Kotlin
+*.kotlin_module
+
+# Archivos específicos de Android
+build/
+/*/build/
+*.apk
+*.aab
+output.json
+
+# Proguard
+proguard/
+
+# Archivos de respaldo
+*.bak
+
+# Archivos de configuración local
+local.properties
+
+# Flutter y Dart ------------------------------------------------------
+
+# Archivos generados por Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.cocoon/
+.pub-cache/
+.pub/
+
+# Archivos específicos de iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+
+# Archivos específicos de Android
+android/.gradle/
+android/app/build/
+android/key.properties
+android/local.properties
+android/captures/
+
+# Archivos específicos de macOS
+macos/.flutter-plugins
+macos/.flutter-plugins-dependencies
+macos/Flutter/ephemeral/
+macos/build/
+
+# Archivos específicos de Windows
+windows/flutter/ephemeral/
+windows/build/
+
+# Archivos específicos de Linux
+linux/flutter/ephemeral/
+linux/build/
+
+# Archivos generados por el compilador de Dart
+*.dart.js
+*.js.deps
+*.js.map
+*.dart.js.tar.gz
+
+# Archivos de configuración del IDE
+.idea/
+.vscode/
+*.iml
+
+# Archivos de caché y logs
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de salida de compilación
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Archivos de configuración de depuración
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Otros
+node_modules/

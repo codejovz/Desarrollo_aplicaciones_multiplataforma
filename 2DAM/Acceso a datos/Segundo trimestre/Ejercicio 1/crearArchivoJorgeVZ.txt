@@ -1,0 +1,22 @@
+package accesoAdatos;
+
+import java.io.*;
+
+public class EscribirFichero {
+	
+	static String path= "C:\\Users\\jotaa\\OneDrive\\Escritorio\\";
+	public static void Main(String[] args) {
+		
+		try {
+			FileWriter fw = new FileWriter(path+"nuevo.txt");
+			BufferedWriter bw = new BufferedWriter(fw);
+			String linea = "Jorge Varela Zamora, 2 DAM";
+			bw.write(linea);
+			bw.close();
+			fw.close();
+
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

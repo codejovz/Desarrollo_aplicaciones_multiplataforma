@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE albumesMortadelo [
+      <!ELEMENT albumesMortadelo (album)*>
+      <!ELEMENT album (nombre, fecha)>
+      <!--<!ELEMENT nombre EMPTY>
+      <!ELEMENT fecha EMPTY>-->
+      <!ATTLIST album nombre CDATA #REQUIRED>
+      <!--<!ATTLIST album fecha (1969 | 1970 | 1971 | 1972 | 1973 | 1974) #REQUIRED>-->
+      <!ATTLIST album fecha (1969,1970,1971,1972,1973,1974) #REQUIRED>
+    ]>
+
+    <albumesMortadelo>
+      <album nombre= "El sulfato atómico" fecha="1969">
+       <nombre /><fecha />
+      </album>
+      <album nombre="La caja de diez cerrojos" fecha="1971">
+       <nombre /><fecha />
+      </album>
+      <album nombre="El otro yo del profesor Bacterio" fecha="1973">
+       <nombre /><fecha />
+      </album>
+      <album nombre="Los cacharros majaretas" fecha="1974">
+       <nombre /><fecha />
+      </album>
+    </albumesMortadelo>
+    
+    <!--
+ERRORES en el dtd:
+En fecha, los numeros tendrían que estar separados por '|', no por una coma.
+No están definidos como elementos/etiquetas ni nombre ni fecha, aunque pone que nombre y fecha
+son etiquetas que pueden estar contenidas en album.
+'Nombre' y 'Fecha' son a la vez elementos y atributos. Se puede hacer, pero tiene poca utilidad.
+-->
