@@ -1,8 +1,0 @@
-Mario1.png
-Mario2.png
-Mario_and_Enemies.pack
-Mario_and_Enemies.png
-background6.png
-btnStartGame.png
-libgdx.png
-menu.png

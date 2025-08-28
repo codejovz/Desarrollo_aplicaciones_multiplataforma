@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module practicaExamenHerencia1 {
-}

@@ -1,1 +1,0 @@
-[Video 4 de Pildoras Informaticas](https://youtu.be/aqzlsqqTsGI?si=iSw9RDpsxVV1kREp)

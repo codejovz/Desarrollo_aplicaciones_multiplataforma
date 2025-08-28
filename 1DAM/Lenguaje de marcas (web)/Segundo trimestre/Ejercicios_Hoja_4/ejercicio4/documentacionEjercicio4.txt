@@ -1,3 +1,0 @@
-Dentro de la sección <head> habría que meter un link de tipo 'css/text' que referenciase a un archivo de css.
-Dentro del documento html, habría que dotar de id's y clases a cada elemento que quisiésemos cambiar con el archivo de css.
-Después, le daremos atributos a las clases y a los id's que hayamos creado en el archivo de html.
