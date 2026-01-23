@@ -1,7 +1,7 @@
 ## Haz click en la foto para acceder a la web!
 
-[![Captura del ejercicio 9](imagenes_ejercicios/capEjer9.png)](https://jotaaloud.github.io/Desarrollo_aplicaciones_multiplataforma/1DAM/Lenguaje%20de%20marcas%20(web)/Segundo%20trimestre/Ejercicios_Hoja_3/ejercicio_05/ejercicio_09XHTML.xhtml  )
-[![Captura del ejercicio 10](imagenes_ejercicios/capEjer10.png)](https://jotaaloud.github.io/Desarrollo_aplicaciones_multiplataforma/1DAM/Lenguaje%20de%20marcas%20(web)/Segundo%20trimestre/Ejercicios_Hoja_3/ejercicio_05/ejercicio_10XHTML.xhtml  )
+[![Captura del ejercicio 9](imagenes_ejercicios/capEjer9.png)](https://codejovz.github.io/Desarrollo_aplicaciones_multiplataforma/1DAM/Lenguaje%20de%20marcas%20(web)/Segundo%20trimestre/Ejercicios_Hoja_3/ejercicio_05/ejercicio_09XHTML.xhtml  )
+[![Captura del ejercicio 10](imagenes_ejercicios/capEjer10.png)](https://codejovz.github.io/Desarrollo_aplicaciones_multiplataforma/1DAM/Lenguaje%20de%20marcas%20(web)/Segundo%20trimestre/Ejercicios_Hoja_3/ejercicio_05/ejercicio_10XHTML.xhtml  )
 
 - Adapte los ejercicios nueve y diez de la primera hoja de trabajo de HTML a las especificaciones del estándar XHTML.
 
